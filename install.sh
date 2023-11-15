@@ -19,15 +19,14 @@ apt install nala -y
 # Making .config and moving config files and background to Pictures
 cd $builddir
 mkdir -p /home/$username/.config
-mkdir -p /home/$username/Pictures
 mkdir -p /home/$username/Pictures/backgrounds
 cp -R dotconfig/* /home/$username/.config/
-cp back/* /home/$username/Pictures/backgrounds/
+cp images/* /home/$username/Pictures/backgrounds/
 chown -R $username:$username /home/$username
 
 # Installing Programs 
 nala install feh kitty picom thunar nitrogen lxpolkit x11-xserver-utils unzip wget pulseaudio pavucontrol build-essential libx11-dev libxft-dev \
-libxinerama-dev neofetch flameshot psmisc vim lxappearance lightdm bluetoothctl -y
+libxinerama-dev neofetch flameshot psmisc fonts-jetbrains-mono lightdm bluetoothctl -y
 
 # Install browser
 wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
