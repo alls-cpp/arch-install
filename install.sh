@@ -19,7 +19,6 @@ apt install nala -y
 # Making .config and moving config files and background to Pictures
 cd $builddir
 mkdir -p /home/$username/.config
-mkdir -p /home/$username/.fonts
 mkdir -p /home/$username/Pictures
 mkdir -p /home/$username/Pictures/backgrounds
 cp -R dotconfig/* /home/$username/.config/
