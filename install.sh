@@ -27,13 +27,13 @@ chown -R $username:$username /home/$username
 
 # Installing Programs 
 nala install feh kitty picom thunar nitrogen lxpolkit x11-xserver-utils unzip wget pulseaudio pavucontrol build-essential libx11-dev libxft-dev \
-libxinerama-dev neofetch flameshot psmisc vim lxappearance lightdm -y
+libxinerama-dev neofetch flameshot psmisc vim lxappearance lightdm bluetoothctl -y
 
 # Install browser
 wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
-sudo mv thorium.list /etc/apt/sources.list.d/
-sudo apt update
-sudo apt install thorium-browser
+mv thorium.list /etc/apt/sources.list.d/
+nala update
+nala install thorium-browser -y
 
 # Enable graphical login and change target from CLI to GUI
 systemctl enable lightdm
