@@ -1,0 +1,118 @@
+# Basic settings
+font pango: a 13
+set $mod Mod4
+workspace_layout default
+new_window pixel 2
+hide_edge_borders smart
+floating_modifier $mod
+
+# Workspace
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+
+# Window focus, movement and management
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+bindsym $mod+q kill
+bindsym $mod+Shift+r reload
+bindsym $mod+r mode "resize"
+bindsym $mod+o split toggle
+bindsym $mod+f fullscreen toggle
+bindsym $mod+Shift+f floating toggle ; [floating] resize set 1000 600 ; move position center
+
+# Resizing windows
+mode "resize" {
+    bindsym h resize shrink width 10 px or 10 ppt
+    bindsym j resize shrink height 10 px or 10 ppt
+    bindsym k resize grow height 10 px or 10 ppt
+    bindsym l resize grow width 10 px or 10 ppt
+    bindsym Shift+h resize shrink width 5 px or 5 ppt
+    bindsym Shift+j resize shrink height 5 px or 5 ppt
+    bindsym Shift+k resize grow height 5 px or 5 ppt
+    bindsym Shift+l resize grow width 5 px or 5 ppt
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# Audio and brightness control
+bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 1%+ && pkill -RTMIN+1 i3blocks
+bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 1%- && pkill -RTMIN+1 i3blocks
+bindsym XF86AudioMute exec amixer sset Master toggle && killall -USR1 i3blocks
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +1%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 1%-
+
+# Application shortcuts
+bindsym $mod+Return exec kitty
+bindsym $mod+w exec chromium
+# bindsym $mod+n exec nautilus
+bindsym $mod+a exec pavucontrol
+bindsym $mod+p exec flameshot gui
+bindsym $mod+t exec telegram-desktop
+bindsym $mod+c exec code
+bindsym $mod+d exec dmenu_run -i -fn "JetBrains Mono"
+
+# System controls
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
+set $mode_system select: lock(L) exit(E) reboot(R) poweroff(O) cancel(Esc)
+bindsym $mod+Escape mode "$mode_system"
+mode "$mode_system" {
+    bindsym l exec --no-startup-id i3lock -c '#DDBEEF', mode "default"
+    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym r exec --no-startup-id systemctl reboot, mode "default"
+    bindsym o exec --no-startup-id systemctl poweroff, mode "default"
+    bindsym Escape mode "default"
+}
+
+# Assigning applications to workspaces
+assign [class="(?i)chromium"] $ws1
+assign [class="TelegramDesktop"] $ws9
+for_window [class=(?i)chromium] focus
+for_window [class=TelegramDesktop] focus
+
+# Startup script
+exec /home/alls/scripts/start.sh
+
+# Bar Configuration
+bar {
+    status_command i3status -c ~/.config/i3/i3status.conf
+    strip_workspace_numbers yes
+}
+
+# Border color settings
+client.focused #665c54 #665c54 #eddbb2 #FFFF00 #FF0000
