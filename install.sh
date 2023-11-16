@@ -25,14 +25,8 @@ cp images/* /home/$username/Pictures/backgrounds/
 chown -R $username:$username /home/$username
 
 # Installing Programs 
-nala install feh kitty picom thunar nitrogen lxpolkit x11-xserver-utils unzip wget pulseaudio pavucontrol build-essential libx11-dev libxft-dev \
-libxinerama-dev neofetch flameshot psmisc fonts-jetbrains-mono lightdm bluetoothctl -y
-
-# Install browser
-wget https://dl.thorium.rocks/debian/dists/stable/thorium.list
-mv thorium.list /etc/apt/sources.list.d/
-nala update
-nala install thorium-browser -y
+nala install i3 xorg feh kitty picom nitrogen unzip wget pulseaudio pavucontrol build-essential \
+chromium neofetch flameshot fonts-jetbrains-mono lightdm bluetoothctl -y
 
 # Enable graphical login and change target from CLI to GUI
 systemctl enable lightdm
