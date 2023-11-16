@@ -21,7 +21,7 @@ cd $builddir
 mkdir -p /home/$username/.config
 mkdir -p /home/$username/Pictures/backgrounds
 cp -R dotconfig/* /home/$username/.config/
-cp images/* /home/$username/Pictures/backgrounds/
+cp backgrounds/* /home/$username/Pictures/backgrounds/
 chown -R $username:$username /home/$username
 
 # Installing Programs 
@@ -32,5 +32,3 @@ chromium neofetch flameshot fonts-jetbrains-mono lightdm bluetoothctl -y
 systemctl enable lightdm
 systemctl set-default graphical.target
 
-# Use nala
-bash scripts/usenala
