@@ -18,9 +18,10 @@ vim.opt.cursorline = true
 -- autosave
 vim.cmd [[autocmd BufLeave,FocusLost * silent! wall]]
 vim.cmd [[set matchpairs+=<:>]]
-vim.o.background = "light"
+-- colorscheme and background transparent
 vim.cmd [[ colorscheme torte ]]
-
+vim.cmd [[ highlight Normal ctermbg=none]]
+vim.cmd [[ highlight NonText ctermbg=none]]
 
 -- REMAP
 --
