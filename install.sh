@@ -19,14 +19,12 @@ apt install nala -y
 # Making .config and moving config files and background to Pictures
 cd $builddir
 mkdir -p /home/$username/.config
-mkdir -p /home/$username/Pictures/backgrounds
 cp -R dotconfig/* /home/$username/.config/
-cp backgrounds/* /home/$username/Pictures/backgrounds/
 chown -R $username:$username /home/$username
 
 # Installing Programs 
-nala install i3 xorg feh kitty picom nitrogen unzip wget pulseaudio pavucontrol build-essential curl \
-chromium neofetch flameshot fonts-jetbrains-mono lightdm bluetoothctl -y
+nala install i3 xorg feh kitty unzip wget pulseaudio pavucontrol build-essential curl \
+chromium neofetch flameshot lightdm bluetoothctl -y
 
 # Enable graphical login and change target from CLI to GUI
 systemctl enable lightdm
