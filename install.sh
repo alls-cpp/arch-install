@@ -16,26 +16,19 @@ apt upgrade -y
 # Install nala
 apt install nala -y
 
-# Making .config and moving config files and background to Pictures
+# Making .config and moving config files
 cd $builddir
 mkdir -p /home/$username/.config
 cp -R dotconfig/* /home/$username/.config/
 chown -R $username:$username /home/$username
 
 # Installing Programs 
-nala install i3 xorg feh kitty unzip wget pulseaudio pavucontrol build-essential curl \
-chromium neofetch flameshot lightdm bluetoothctl -y
+nala install i3 xorg kitty unzip wget pulseaudio pavucontrol build-essential curl nemo \
+chromium neofetch flameshot lightdm bluetoothctl telegram-desktop code fd-find fzf \
+zsh eog evince vlc suckless-tools -y
 
 # Enable graphical login and change target from CLI to GUI
 systemctl enable lightdm
 systemctl set-default graphical.target
 
-# Fish shell
-echo 'deb http://download.opensuse.org/repositories/shells:/fish:/release:/3/Debian_12/ /' | sudo tee /etc/apt/sources.list.d/shells:fish:release:3.list
-curl -fsSL https://download.opensuse.org/repositories/shells:fish:release:3/Debian_12/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/shells_fish_release_3.gpg > /dev/null
-nala update
-nala install fish
-
-# Change shell
-chsh -s $(which fish)
-
+chsh -s $(which zsh)
