@@ -32,3 +32,5 @@ systemctl enable lightdm
 systemctl set-default graphical.target
 
 chsh -s $(which zsh)
+
+# Install eza and move fzf into .config

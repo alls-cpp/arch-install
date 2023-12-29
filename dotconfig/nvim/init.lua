@@ -21,10 +21,10 @@ vim.opt.inccommand = "split"
 vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 
-
 -- autosave
 vim.cmd [[autocmd BufLeave,FocusLost * silent! wall]]
 vim.cmd [[set matchpairs+=<:>]]
+vim.cmd [[set noshowmode]]
 
 -- remap space as leader key
 vim.g.mapleader = " "
@@ -86,33 +86,83 @@ require('packer').startup(function(use)
     use 'norcalli/nvim-colorizer.lua'
     use 'tanvirtin/monokai.nvim'
     use {
-      "zbirenbaum/copilot.lua",
-      cmd = "Copilot",
-      event = "InsertEnter",
-      config = function()
-        require("copilot").setup({})
-      end,
+	    'nvim-lualine/lualine.nvim',
+	    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
 end)
 
-require('copilot').setup({
-  suggestion = {
-    auto_trigger = false,
-    keymap = {
-      accept = "<C-l>",
-      accept_word = false,
-      accept_line = false,
-      next = "<C-]>",
-      prev = "<C-[>",
-      dismiss = "<C-e>",
-    },
-    filetypes = {
-        ["."] = true,
-    },
-  },
-})
-
 require('monokai').setup { palette = require('monokai').ristretto }
+
+-- lualine
+-- Bubbles config for lualine
+-- Author: lokesh-krishna
+-- MIT license, see LICENSE for more details.
+
+-- stylua: ignore
+local colors = {
+  blue   = '#a8a9eb',
+  cyan   = '#85dacc',
+  black  = '#2c2525',
+  white  = '#fff1f3',
+  red    = '#fd6883',
+  violet = '#f38d70',
+  grey   = '#403838',
+}
+
+local bubbles_theme = {
+    normal = {
+        a = { fg = colors.black, bg = colors.cyan },
+        b = { fg = colors.cyan, bg = colors.grey },
+    },
+    insert = {
+        a = { fg = colors.black, bg = colors.blue },
+        b = { fg = colors.blue, bg = colors.grey },
+    },
+    visual = {
+        a = { fg = colors.black, bg = colors.violet },
+        b = { fg = colors.violet, bg = colors.grey },
+    },
+    replace = {
+        a = { fg = colors.black, bg = colors.blue },
+        b = { fg = colors.blue, bg = colors.grey },
+    },
+    inactive = {
+        a = { fg = colors.white, bg = colors.black },
+        b = { fg = colors.white, bg = colors.black },
+        c = { fg = colors.black, bg = colors.black },
+    },
+}
+
+require('lualine').setup {
+    options = {
+        theme = bubbles_theme,
+        component_separators = '|',
+        section_separators = { left = '', right = '' },
+    },
+    sections = {
+        lualine_a = {
+            { 'mode', separator = { left = '' }, right_padding = 2 },
+        },
+        lualine_b = { 'filename', 'branch', 'diagnostics' },
+        lualine_c = {},
+        lualine_x = {},
+        lualine_y = { 'filetype', 'progress' },
+        lualine_z = {
+            { 'location', separator = { right = '' }, left_padding = 2 },
+        },
+    },
+    inactive_sections = {
+        lualine_a = { 'filename' },
+        lualine_b = {},
+        lualine_c = {},
+        lualine_x = {},
+        lualine_y = {},
+        lualine_z = { 'location' },
+    },
+    tabline = {},
+    extensions = {},
+}
+
 require('colorizer').setup()
 -- Attach Colorizer to every buffer
 vim.api.nvim_create_autocmd("BufEnter", {
