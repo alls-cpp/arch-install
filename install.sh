@@ -32,8 +32,9 @@ systemctl enable lightdm
 systemctl set-default graphical.target
 
 # Set zsh default shell
+# chsh -s $(which zsh)
 
-# Install eza, fzf
+# Install eza, fzf, neovim, vscode(paste settings and keybindings in dotconfig/Code/User)
 
 # Enable default user and background image in lightdm
 # 1)In /etc/lightdm/lightdm.conf
@@ -46,3 +47,4 @@ systemctl set-default graphical.target
 #   background=/usr/share/pixmaps/Black_Hole_Wallpaper.jpeg
 
 # Install jetbrainsmono font on https://www.nerdfonts.com/font-downloads, unzip it in ~/.fonts and run fc-cache -fv
+# fc-list to see the available fonts
