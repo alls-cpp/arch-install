@@ -25,7 +25,7 @@ chown -R $username:$username /home/$username
 # Installing Programs 
 nala install i3 xorg kitty unzip wget pulseaudio pavucontrol build-essential curl nemo \
 chromium neofetch flameshot lightdm telegram-desktop fd-find fonts-font-awesome \
-lxappearance papirus-icon-theme zsh eog evince vlc suckless-tools bat xclip brightnessctl playerctl i3blocks nitrogen network-manager -y
+lxappearance papirus-icon-theme zsh eog evince vlc suckless-tools bat xclip brightnessctl playerctl i3blocks nitrogen network-manager network-manager-gnome -y
 
 # Enable graphical login and change target from CLI to GUI
 systemctl enable lightdm
