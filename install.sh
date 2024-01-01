@@ -48,3 +48,12 @@ systemctl set-default graphical.target
 
 # Install jetbrainsmono font on https://www.nerdfonts.com/font-downloads, unzip it in ~/.fonts and run fc-cache -fv
 # fc-list to see the available fonts
+
+# Notification of low battery
+# make scripts executable
+# crontab -e
+# append:
+#   DISPLAY=:0
+#   */2 * * * * /home/alls/scripts/i3batwarn.sh
+
+
