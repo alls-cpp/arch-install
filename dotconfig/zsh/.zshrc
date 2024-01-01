@@ -18,7 +18,7 @@ source /home/alls/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlig
 source /home/alls/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '^f' autosuggest-accept
 
-alias ls='eza'
+alias ls='eza --icons'
 alias l='ls -l'
 alias la='ls -la'
 
