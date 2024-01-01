@@ -66,8 +66,6 @@ vim.keymap.set("n", "<C-a>", "gg<S-v>G")
 -- import from library
 vim.keymap.set("n", "<C-l>", ":r /home/alls/CompetitiveProgramming/Library/")
 
-vim.keymap.set('n', '<C-;>', ':lua require("copilot.suggestion").toggle_auto_trigger()<CR>', { noremap = true, silent = true })
-
 -- PLUGINS
 require('packer').startup(function(use)
     -- Packer can manage itself

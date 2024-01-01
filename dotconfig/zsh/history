@@ -1,0 +1,378 @@
+ls
+cd
+cd CompetitiveProgramming
+cd
+ls 
+cd CompetitiveProgramming
+i3-msg restart
+i3-msg restart
+i3-msg restart
+i3-msg restart
+i3-msg restart
+i3-msg restart
+i3-msg restart
+i3-msg restart
+neofetch
+nvim .config/i3/config
+nvim .config/i3/i3status.conf
+i3-msg restart
+nvim .config/i3/i3status.conf
+nvim .config/i3/i3status.conf
+nm
+nmtui
+networkctl
+networkctl 
+systemd-networkd
+nmcli
+nmtui
+wpa_supplicant
+bash
+lwconfig
+networkctl
+iw
+ip link show
+wpa
+networkctl
+networkctl label
+fd
+fd-find
+nvim .config/nvim/init.lua
+fzf
+fzf
+fzf
+fzf
+fzf
+fzf
+fzf
+ls
+la
+fzf
+..
+..
+fzf
+sudo nala remove fzf
+whereis fzf
+fdfind
+fzf
+cd .local
+ls
+..
+la
+cd .local
+lla
+la
+..
+whereis fzf
+cd /usr
+lla
+la
+la src
+la share
+find . fzf
+find . 'fzf'
+ls
+fzf
+eog Github/neovim/runtime/nvim.png
+eog 
+eog fzf
+eog ($fzf)
+eog $fzf
+fzf
+la
+nvim .bashrc
+nvim .bashrc
+nvim .bashrc
+nvim .config/zsh/.zshrc
+cd
+nvim .zshenv
+clone
+ls
+nvim
+ip
+ping
+iw
+wpa_supplicant
+sudo su
+sudo su
+cd CompetitiveProgramming
+ls
+mkdir Library
+mv debug.h Template.cpp Library
+ls
+cd Library
+nvim debug.h
+nvim Template.cpp
+nvim Template.cpp
+sudo iwconfig
+sudo iwlist wlp4s0 scan
+sudo iwlist wlp4s0 scan
+nmcli
+sudo nmcli
+sudo su
+sudo su
+iwconfig
+sudo iwconfig
+ls
+cd CompetitiveProgramming
+ls
+cd Library
+nano Template.cpp
+nano debug.h
+nano debug.h
+ls
+batcat Template.cpp
+c
+dcd
+cd
+nvim .config/i3/i3status.conf
+ls
+cd CompetitiveProgramming
+ls
+cd Library
+ls
+vim Template.cpp
+nvim Template.cpp
+nvim Template.cpp
+..
+cpa 
+mkdir tmp
+cd tmp
+ls
+nvim a.cpp
+g++ -DALE a.cpp -o a && ./a
+ls
+cd CompetitiveProgramming
+ls
+cd tmp
+ls
+nvim a.cpp
+cd CompetitiveProgramming/tmp
+nvim .config/zsh/history
+nvim /etc/wpa_supplicant.conf
+sudo nvim /etc/wpa_supplicant.conf
+sudo ip link set wlp4s0 down
+sudo ip link set wlp4s0 up
+sudo wpa_supplicant -B -iwlp4s0 -c /etc/wpa_supplicant.conf -Dnl80211,wext
+wpa_cli
+sudo wpa_cli
+sudo ip link set wlp4s0 down
+sudo wpa_cli
+sudo iwctl
+sudo iwd
+sudo wpa_cli
+sudo ip link set wlp4s0 up
+sudo wpa_cli
+cd /etc
+find . 'db
+find . 'db'
+find . 'regulatory'
+man find
+fdfind regulatory
+nvim alternatives/regulatory.db
+vim alternatives/regulatory.db
+vim alternatives/regulatory.db
+vim alternatives/regulatory.db.p7s
+fdfind db
+cd network
+ls
+nvim interfaces
+cd interfaces.d
+ls
+..
+ls
+sudo nala install nmcli
+sudo apt install nmtui
+sudo apt install nmcli
+sudo nala install network-manager
+source /etc/network/interfaces.d/*
+sudo nvim /etc/network/interfaces
+nmtui
+nmcli
+nmtui
+nmtui
+nmtui
+nmtui
+sudo rm /etc/wpa_supplicant.conf
+nmtui
+nmtui
+sudo networkctl
+nmtui
+sudo service network-manager restart \
+
+sudo service NetworkManager restart 
+sudo service NetworkManager restart 
+nmtui
+nvim /etc/network/interfaces
+sudo nvim /etc/network/interfaces
+nmtui
+sudo nala install network-manager-gnome
+nm-applet
+nm-applet &
+disown
+sudo nano /etc/NetworkManager/NetworkManager.conf\
+
+sudo nvim /etc/NetworkManager/NetworkManager.conf\
+
+sudo service network-manager restart\
+
+sudo service NetworkManager restart\
+
+sudo service NetworkManager start
+nmtui
+nmtui
+nm-applet &
+sudo nala install firmware-iwlwifi
+ls
+_dconf
+man fdfing
+man fdfind
+fdfind --type d .config
+fdfind --type d config
+fdfind --type d config .
+fdfind --type d config
+fdfind --type d back
+fdfind --type d background
+fdfind --type d backgrounds
+fdfind --type d back
+cd /
+fdfind --type d back
+fdfind --type d backgrounds
+fdfind --type d wallpaper
+cd
+cd /usr/share/wallpapers
+ls
+eog .
+eog *
+eog --help
+ eog /usr/share/wallpapers
+ls
+cd moonlight
+ls
+cd contents
+ls
+cd images
+ls
+eog *
+eog *
+nemo --no-desktop
+nemo --no-desktop
+htop
+sudo nala install htop
+htop
+htop
+sudo nala install nitrogen
+nvim .config/i3/config
+cd Downloads
+ls
+pwd
+sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+pwd
+sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+cd /usr/share/pixmaps
+ls
+eog debian-security.png debian-logo.png
+cp ~/Downloads/Black_Hole_Wallpaper.jpeg .
+sudo cp ~/Downloads/Black_Hole_Wallpaper.jpeg .
+sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+cd /usr/share/pixmaps
+ls
+cd Downloads
+ls
+sudo nala install ./code_1.85.1-1702462158_amd64.deb
+cd Github
+ls
+cd neovim
+ls
+nvim ~/.config/zsh/history
+sudo apt remove neovim 
+nvim
+git checkout stable
+git pull
+git checkout stable
+..
+ls
+cd neovim
+git pull
+sudo make install
+nvim
+..
+cd
+ls
+cd CompetitiveProgramming
+ls
+cd tmp
+nvim a.cpp
+nvim a.cpp
+nvim a.cpp
+ls
+cd Desktop
+ls
+mkdir smbud
+cd smbud
+ls
+nvim results
+code .
+ls
+cd Downloads
+eog 72c98e85-4558-49a8-be62-abe344d24c56
+sudo apt install python3
+sudo apt install python3-pip -y
+pip
+pip --version
+pip3 --version
+pip3 install numpy
+sudo apt install python3-numpy
+sudo apt install python3-matplotlib
+sudo apt install python3-pyplot
+sudo apt install python3-matplotlib
+ls
+cd query3
+ls
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+../query2
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+../query3
+ls
+python3 script.py
+../query5
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py
+python3 script.py

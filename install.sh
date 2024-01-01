@@ -24,21 +24,25 @@ chown -R $username:$username /home/$username
 
 # Installing Programs 
 nala install i3 xorg kitty unzip wget pulseaudio pavucontrol build-essential curl nemo \
-chromium neofetch flameshot lightdm telegram-desktop fd-find fzf fonts-jetbrains-mono fonts-font-awesome \
-lxappearance papirus-icon-theme zsh eog evince vlc suckless-tools bat xclip brightnessctl playerctl i3blocks -y
+chromium neofetch flameshot lightdm telegram-desktop fd-find fonts-font-awesome \
+lxappearance papirus-icon-theme zsh eog evince vlc suckless-tools bat xclip brightnessctl playerctl i3blocks nitrogen network-manager -y
 
 # Enable graphical login and change target from CLI to GUI
 systemctl enable lightdm
 systemctl set-default graphical.target
 
-
 # Set zsh default shell
 
-# Install eza
+# Install eza, fzf
 
-# Enable default user in lightdm
-# In /etc/lightdm/lightdm.conf
-# Go down the file until you get to:
-# # greeter-hide-users=false
-# Un-comment it, make sure the value is false.
+# Enable default user and background image in lightdm
+# 1)In /etc/lightdm/lightdm.conf
+#   Go down the file until you get to:
+#   # greeter-hide-users=false
+#   Un-comment it, make sure the value is false.
+# 2)In /etc/lightdm/lightdm-gtk-greeter.conf
+#   Go down the file until you get to:
+#   [greeter]
+#   background=/usr/share/pixmaps/Black_Hole_Wallpaper.jpeg
 
+# Install jetbrainsmono font on https://www.nerdfonts.com/font-downloads, unzip it in ~/.fonts and run fc-cache -fv

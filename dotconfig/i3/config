@@ -84,7 +84,7 @@ bindsym $mod+a exec pavucontrol
 bindsym $mod+p exec flameshot gui
 bindsym $mod+t exec telegram-desktop
 bindsym $mod+c exec code
-bindsym $mod+d exec dmenu_run -i -fn "FiraCode Nerd Font" -nb "#2c2525" -nf "#fff1f3" -sf "#2c2525" -sb "#85dacc" 
+bindsym $mod+d exec dmenu_run -i -fn "JetBrains Mono" -nb "#2c2525" -nf "#fff1f3" -sf "#2c2525" -sb "#85dacc" 
 
 # Python as calculator
 bindsym $mod+s exec kitty --name ciao -e /usr/bin/python3
@@ -140,3 +140,5 @@ bar {
 client.focused          $black  $black $green  $pink   $blue
 client.focused_inactive $black  $black $blue   $black  $black
 client.unfocused        $black  $black $white  $black  $black
+
+exec --no-startup-id nitrogen --restore
