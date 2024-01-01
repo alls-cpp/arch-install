@@ -31,6 +31,10 @@ lxappearance papirus-icon-theme zsh eog evince vlc suckless-tools bat xclip brig
 systemctl enable lightdm
 systemctl set-default graphical.target
 
+# wifi problem
+# into /etc/sudoers.d/sysctl
+# alls ALL = NOPASSWD: /bin/systemctl
+
 # Set zsh default shell
 # chsh -s $(which zsh)
 
