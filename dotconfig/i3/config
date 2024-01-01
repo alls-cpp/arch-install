@@ -1,5 +1,5 @@
 # Basic settings
-font pango:JetBrains Mono, FontAwesome 14
+font pango:JetBrains Mono Nerd Font Propo, FontAwesome 14
 set $mod Mod4
 workspace_layout default
 new_window pixel 3
