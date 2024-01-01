@@ -142,3 +142,7 @@ client.focused_inactive $black  $black $blue   $black  $black
 client.unfocused        $black  $black $white  $black  $black
 
 exec --no-startup-id nitrogen --restore
+# solved problem with wifi(can't connect to wifi) when installed debian with wifi 
+exec sudo systemctl restart wpa_supplicant
+exec sudo systemctl restart NetworkManager
+exec --no-startup-id nm-applet
