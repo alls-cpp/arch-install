@@ -21,7 +21,12 @@ bindkey '^f' autosuggest-accept
 alias ls='eza --icons'
 alias l='ls -l'
 alias la='ls -la'
+alias lt='ls --tree'
+alias bat='batcat'
+alias v='nvim'
 
-# export FZF_DEFAULT_COMMAND='fdfind --type f --strip-cwd-prefix --hidden --follow --exclude .git'
-# To apply the command to CTRL-T as well
-# export FZF_CTRL_T_COMMAND='fdfind --type f --strip-cwd-prefix --hidden --follow --exclude .git'
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_OPTS='--height 100%'
+export FZF_CTRL_T_COMMAND='fdfind --type f --strip-cwd-prefix --hidden --follow --exclude .git'
+export FZF_CTRL_T_OPTS="--preview 'batcat -n --color=always {}' --bind 'ctrl-p:toggle-preview'"
+export FZF_ALT_C_COMMAND='fdfind --type d --hidden --follow --exclude .git'
