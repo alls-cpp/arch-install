@@ -39,6 +39,10 @@ systemctl set-default graphical.target
 # chsh -s $(which zsh)
 
 # Install eza, fzf, neovim, vscode(paste settings and keybindings in dotconfig/Code/User)
+# for fzf
+# Do you want to enable fuzzy auto-completion? NO
+# Do you want to enable key bindings? Yes
+# Do you want to update your shell configuration files? Yes
 
 # Enable default user and background image in lightdm
 # 1)In /etc/lightdm/lightdm.conf
