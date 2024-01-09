@@ -95,7 +95,6 @@ require('monokai').setup { palette = require('monokai').ristretto }
 -- Bubbles config for lualine
 -- Author: lokesh-krishna
 -- MIT license, see LICENSE for more details.
-
 -- stylua: ignore
 local colors = {
   blue   = '#a8a9eb',
@@ -141,10 +140,10 @@ require('lualine').setup {
         lualine_a = {
             { 'mode', separator = { left = '' }, right_padding = 2 },
         },
-        lualine_b = { 'filename', 'branch', 'diagnostics' },
+        lualine_b = {{'filename',path=1}, 'branch', 'diagnostics'},
         lualine_c = {},
         lualine_x = {},
-        lualine_y = { 'filetype', 'progress' },
+        lualine_y = {'filesize', 'progress'},
         lualine_z = {
             { 'location', separator = { right = '' }, left_padding = 2 },
         },
