@@ -2,9 +2,11 @@
     "window.menuBarVisibility": "toggle",
     "editor.mouseWheelZoom": true,
     "window.zoomLevel": 2,
-    "editor.fontFamily": "'JetBrains Mono'",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
     "editor.minimap.enabled": false,
     "explorer.confirmDelete": false,
     "files.autoSave": "onFocusChange",
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'"
 }
