@@ -2,6 +2,7 @@
 font pango:JetBrains Mono Nerd Font Propo 14
 set $mod Mod4
 workspace_layout default
+bindsym $mod+Shift+s layout toggle tabbed splith
 new_window pixel 3
 hide_edge_borders smart
 floating_modifier $mod
@@ -66,13 +67,13 @@ mode "resize" {
 }
 
 # Audio and brightness control
-bindsym XF86AudioRaiseVolume exec amixer -D pulse sset Master 1%+ && pkill -RTMIN+1 i3blocks
-bindsym XF86AudioLowerVolume exec amixer -D pulse sset Master 1%- && pkill -RTMIN+1 i3blocks
-bindsym XF86AudioMute exec amixer sset Master toggle && killall -USR1 i3blocks
-bindsym XF86AudioPlay exec playerctl play
-bindsym XF86AudioPause exec playerctl pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 1%+ && pkill -RTMIN+1 i3blocks
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 1%- && pkill -RTMIN+1 i3blocks
+bindsym XF86AudioMute exec --no-startup-id amixer sset Master toggle && killall -USR1 i3blocks
+bindsym XF86AudioPlay exec --no-startup-id playerctl play
+bindsym XF86AudioPause exec --no-startup-id playerctl pause
+bindsym XF86AudioNext exec --no-startup-id playerctl next
+bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +1%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 1%-
 
@@ -112,7 +113,7 @@ mode "$mode_system" {
 }
 
 # colors
-set $black 	    #2c2525
+set $black	    #2c2525
 set $white      #fff1f3
 set $pink       #ff6188
 set $blue       #85dacc
@@ -125,6 +126,7 @@ set $purple     #a8a9eb
 bar {
     status_command i3status -c ~/.config/i3/i3status.conf
     strip_workspace_numbers yes
+    position top
     colors {
         background $black
         #                  border             background         text
@@ -132,7 +134,7 @@ bar {
         inactive_workspace $black             $black             $white
         active_workspace   $black             $black             $blue
         urgent_workspace   $pink              $pink              $black
-        binding_mode       $black             $orange            $black
+        binding_mode       $black             $purple            $black
       }
 }
 
@@ -142,7 +144,6 @@ client.focused_inactive $black  $black $blue   $black  $black
 client.unfocused        $black  $black $white  $black  $black
 
 exec --no-startup-id nitrogen --restore
-# solved problem with wifi(can't connect to wifi) when installed debian with wifi 
-exec sudo systemctl restart wpa_supplicant
-exec sudo systemctl restart NetworkManager
+exec --no-startup-id sudo systemctl restart wpa_supplicant
+exec --no-startup-id sudo systemctl restart NetworkManager
 exec --no-startup-id nm-applet
