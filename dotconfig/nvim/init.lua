@@ -14,7 +14,7 @@ vim.opt.incsearch = true
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 vim.opt.updatetime = 50
-vim.opt.cursorline = true
+-- vim.opt.cursorline = true
 vim.opt.termguicolors = true
 vim.opt.virtualedit = "block"
 vim.opt.inccommand = "split"
@@ -22,7 +22,7 @@ vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 
 -- autosave
-vim.cmd [[autocmd BufLeave,FocusLost * silent! wall]]
+-- vim.cmd [[autocmd BufLeave,FocusLost * silent! wall]]
 vim.cmd [[set matchpairs+=<:>]]
 vim.cmd [[set noshowmode]]
 
@@ -66,6 +66,10 @@ vim.keymap.set("n", "<C-a>", "gg<S-v>G")
 -- import from library
 vim.keymap.set("n", "<C-l>", ":r /home/alls/CompetitiveProgramming/Library/")
 
+vim.keymap.set("n", "<Tab>", ":bn<CR>")
+vim.keymap.set("n", "<S-Tab>", ":bp<CR>")
+
+
 -- PLUGINS
 require('packer').startup(function(use)
     -- Packer can manage itself
@@ -77,87 +81,90 @@ require('packer').startup(function(use)
     }
     use 'numToStr/Comment.nvim'
     use {
-      "williamboman/mason.nvim",
-      "williamboman/mason-lspconfig.nvim",
-      "neovim/nvim-lspconfig",
+        "williamboman/mason.nvim",
+        "williamboman/mason-lspconfig.nvim",
+        "neovim/nvim-lspconfig",
     }
     use 'norcalli/nvim-colorizer.lua'
     use 'tanvirtin/monokai.nvim'
     use {
-	    'nvim-lualine/lualine.nvim',
-	    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+        'nvim-lualine/lualine.nvim',
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
 end)
 
 require('monokai').setup { palette = require('monokai').ristretto }
 
 -- lualine
--- Bubbles config for lualine
--- Author: lokesh-krishna
--- MIT license, see LICENSE for more details.
--- stylua: ignore
 local colors = {
-  blue   = '#a8a9eb',
-  cyan   = '#85dacc',
-  black  = '#2c2525',
-  white  = '#fff1f3',
-  red    = '#fd6883',
-  violet = '#f38d70',
-  grey   = '#403838',
+    blue   = '#a8a9eb',
+    cyan   = '#85dacc',
+    black  = '#2c2525',
+    green  = '#adda78',
+    yellow = '#f9cc6c',
+    white  = '#fff1f3',
+    red    = '#fd6883',
+    violet = '#f38d70',
+    grey   = '#403838',
 }
 
-local bubbles_theme = {
+local miao = {
     normal = {
         a = { fg = colors.black, bg = colors.cyan },
-        b = { fg = colors.cyan, bg = colors.grey },
+        c = { fg = colors.white, bg = colors.black },
     },
     insert = {
         a = { fg = colors.black, bg = colors.blue },
-        b = { fg = colors.blue, bg = colors.grey },
+        c = { fg = colors.white, bg = colors.black },
     },
     visual = {
         a = { fg = colors.black, bg = colors.violet },
-        b = { fg = colors.violet, bg = colors.grey },
+        c = { fg = colors.white, bg = colors.black },
+    },
+    command = {
+        a = { fg = colors.black, bg = colors.yellow },
+        c = { fg = colors.white, bg = colors.black },
     },
     replace = {
         a = { fg = colors.black, bg = colors.blue },
-        b = { fg = colors.blue, bg = colors.grey },
+        c = { fg = colors.white, bg = colors.black },
     },
     inactive = {
         a = { fg = colors.white, bg = colors.black },
-        b = { fg = colors.white, bg = colors.black },
-        c = { fg = colors.black, bg = colors.black },
     },
 }
 
 require('lualine').setup {
     options = {
-        theme = bubbles_theme,
-        component_separators = '|',
-        section_separators = { left = '', right = '' },
+        theme = miao,
+        component_separators = { left = '', right = ''},
+        section_separators = { left = '', right = ''},
     },
     sections = {
-        lualine_a = {
-            { 'mode', separator = { left = '' }, right_padding = 2 },
-        },
-        lualine_b = {{'filename',path=1}, 'branch', 'diagnostics'},
-        lualine_c = {},
+        lualine_a = {'mode'},
+        lualine_b = {{'buffers',
+                        buffers_color = {
+                            active = { bg = colors.white, fg = colors.black },
+                            inactive = { bg = colors.black, fg = colors.white },
+                        }
+                    }},
+        lualine_c = {'branch', 'diagnostics'},
         lualine_x = {},
-        lualine_y = {'filesize', 'progress'},
-        lualine_z = {
-            { 'location', separator = { right = '' }, left_padding = 2 },
-        },
+        lualine_y = {'filesize'},
+        lualine_z = {'location'},
     },
     inactive_sections = {
-        lualine_a = { 'filename' },
+        lualine_a = {{'filename',
+                    symbols = {
+                        modified = '●'
+                    }
+                    }},
         lualine_b = {},
         lualine_c = {},
         lualine_x = {},
         lualine_y = {},
-        lualine_z = { 'location' },
+        lualine_z = {},
     },
-    tabline = {},
-    extensions = {},
 }
 
 require('colorizer').setup()
@@ -170,29 +177,29 @@ vim.api.nvim_create_autocmd("BufEnter", {
 })
 
 require('Comment').setup()
-  vim.keymap.set('n', '<C-/>', "<cmd>lua require('Comment.api').toggle.linewise.current()<CR>")
-  vim.keymap.set('v', '<C-/>', "<esc><cmd>lua require('Comment.api').toggle.linewise(vim.fn.visualmode())<CR>")
-  vim.keymap.set('x', '<C-/>', "<esc><cmd>lua require('Comment.api').toggle.linewise(vim.fn.visualmode())<CR>")
+vim.keymap.set('n', '<C-/>', "<cmd>lua require('Comment.api').toggle.linewise.current()<CR>")
+vim.keymap.set('v', '<C-/>', "<esc><cmd>lua require('Comment.api').toggle.linewise(vim.fn.visualmode())<CR>")
+vim.keymap.set('x', '<C-/>', "<esc><cmd>lua require('Comment.api').toggle.linewise(vim.fn.visualmode())<CR>")
 require'nvim-treesitter.configs'.setup {
-  ensure_installed = { "c", "lua", "python", "vim", "cpp" },
-  sync_install = false,
-  auto_install = true,
-  highlight = {
-    enable = true,
-    additional_vim_regex_highlighting = false,
-  },
-  indent = {
-    enable = true
-  },
+    ensure_installed = { "c", "lua", "python", "vim", "cpp" },
+    sync_install = false,
+    auto_install = true,
+    highlight = {
+        enable = true,
+        additional_vim_regex_highlighting = false,
+    },
+    indent = {
+        enable = true
+    },
 }
 require("mason").setup({
-  ui = {
-      icons = {
-          package_installed = "✓",
-          package_pending = "➜",
-          package_uninstalled = "✗"
-      }
-  }
+    ui = {
+        icons = {
+            package_installed = "✓",
+            package_pending = "➜",
+            package_uninstalled = "✗"
+        }
+    }
 })
 -- Setup language servers.
 local lspconfig = require('lspconfig')
@@ -209,16 +216,16 @@ vim.keymap.set('n', '<leader>]', vim.diagnostic.goto_next)
 -- Use LspAttach autocommand to only map the following keys
 -- after the language server attaches to the current buffer
 vim.api.nvim_create_autocmd('LspAttach', {
-  group = vim.api.nvim_create_augroup('UserLspConfig', {}),
-  callback = function(ev)
-    -- Enable completion triggered by <c-x><c-o>
-    vim.bo[ev.buf].omnifunc = 'v:lua.vim.lsp.omnifunc'
+    group = vim.api.nvim_create_augroup('UserLspConfig', {}),
+    callback = function(ev)
+        -- Enable completion triggered by <c-x><c-o>
+        vim.bo[ev.buf].omnifunc = 'v:lua.vim.lsp.omnifunc'
 
-    -- Buffer local mappings.
-    -- See `:help vim.lsp.*` for documentation on any of the below functions
-    local opts = { buffer = ev.buf }
-    vim.keymap.set('n', 'gd', vim.lsp.buf.declaration, opts)
-    vim.keymap.set('n', 'K', vim.lsp.buf.hover, opts)
-    vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, opts)
-  end,
+        -- Buffer local mappings.
+        -- See `:help vim.lsp.*` for documentation on any of the below functions
+        local opts = { buffer = ev.buf }
+        vim.keymap.set('n', 'gd', vim.lsp.buf.declaration, opts)
+        vim.keymap.set('n', 'K', vim.lsp.buf.hover, opts)
+        vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, opts)
+    end,
 })
