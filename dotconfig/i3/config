@@ -85,6 +85,7 @@ bindsym $mod+a exec pavucontrol
 bindsym $mod+p exec flameshot gui
 bindsym $mod+t exec telegram-desktop
 bindsym $mod+c exec code
+bindsym $mod+x exec xournalpp
 bindsym $mod+d exec dmenu_run -i -fn "JetBrains Mono" -nb "#2c2525" -nf "#fff1f3" -sf "#2c2525" -sb "#85dacc" 
 
 # Python as calculator
@@ -139,7 +140,7 @@ bar {
 }
 
 # Border color settings
-client.focused          $black  $black $green  $pink   $blue
+client.focused          $black  $black $blue   $pink   $blue
 client.focused_inactive $black  $black $blue   $black  $black
 client.unfocused        $black  $black $white  $black  $black
 

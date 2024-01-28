@@ -25,7 +25,7 @@ chown -R $username:$username /home/$username
 # Installing Programs 
 nala install i3 xorg kitty unzip wget pulseaudio pavucontrol build-essential curl nemo \
 chromium neofetch flameshot lightdm telegram-desktop fd-find fonts-font-awesome \
-lxappearance papirus-icon-theme zsh eog evince vlc suckless-tools bat xclip brightnessctl playerctl i3blocks nitrogen network-manager network-manager-gnome -y
+lxappearance papirus-icon-theme zsh eog evince vlc suckless-tools bat xclip brightnessctl playerctl i3blocks nitrogen network-manager network-manager-gnome xournalpp -y
 
 # Enable graphical login and change target from CLI to GUI
 systemctl enable lightdm
@@ -40,7 +40,7 @@ systemctl set-default graphical.target
 
 # Install eza, fzf, neovim, vscode(paste settings and keybindings in dotconfig/Code/User)
 # for fzf
-# Do you want to enable fuzzy auto-completion? NO
+# Do you want to enable fuzzy auto-completion? No
 # Do you want to enable key bindings? Yes
 # Do you want to update your shell configuration files? Yes
 
