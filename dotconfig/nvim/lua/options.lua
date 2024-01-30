@@ -14,6 +14,7 @@ vim.opt.scrolloff = 8
 vim.opt.cursorline = true
 vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+vim.cmd [[autocmd BufLeave,FocusLost * silent! wall]]
 vim.cmd [[set noshowmode]]
 
 -- remap space as leader key
