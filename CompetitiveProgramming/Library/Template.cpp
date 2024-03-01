@@ -14,7 +14,6 @@ int32_t main() {
     int t = 1;
     cin >> t;
     for (int TEST_CASE = 1; TEST_CASE <= t; TEST_CASE++) {
-        // cout << "Case #" << TEST_CASE << ": ";
         dbg(TEST_CASE);
         solve();
     }
