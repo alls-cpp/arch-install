@@ -24,6 +24,8 @@ alias la='ls -la'
 alias lt='ls --tree'
 alias bat='batcat'
 alias v='nvim'
+alias asd='g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O3 -o a'
+alias dasd='g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O3 -DALE -o a'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_OPTS='--height 100%'
