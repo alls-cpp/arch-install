@@ -16,6 +16,8 @@ vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 vim.cmd [[autocmd BufLeave,FocusLost * silent! wall]]
 vim.cmd [[set noshowmode]]
+vim.cmd [[set matchpairs+=<:>]]
+vim.cmd [[colorscheme habamax]]
 
 -- remap space as leader key
 vim.g.mapleader = " "
