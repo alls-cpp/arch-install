@@ -62,6 +62,6 @@ systemctl set-default graphical.target
 # crontab -e
 # append:
 #   DISPLAY=:0
-#   */2 * * * * /home/alls/scripts/i3batwarn.sh
+#   */2 * * * * /home/alls/scripts/batwarn.sh
 
 
