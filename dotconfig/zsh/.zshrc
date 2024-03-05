@@ -23,9 +23,10 @@ alias l='ls -l'
 alias la='ls -la'
 alias lt='ls --tree'
 alias bat='batcat'
+
 alias v='nvim'
-alias asd='g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O3 -o a'
-alias dasd='g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O3 -DALE -o a'
+alias asd='f() { g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O3 -o a "$@" && echo -e "\033[32mCompilation successful\033[0m"; }; f'
+alias dasd='f() { g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O3 -DALE -o a "$@" && echo -e "\033[32mCompilation successful\033[0m"; }; f'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_OPTS='--height 100%'
