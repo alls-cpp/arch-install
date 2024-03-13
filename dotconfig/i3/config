@@ -117,7 +117,7 @@ mode "$mode_system" {
 }
 
 # colors
-set $black	    #282828
+set $black	    #1d2021
 set $white      #ebdbb2
 set $red        #fb4934
 set $blue       #8ec07c

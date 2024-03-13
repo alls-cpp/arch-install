@@ -61,3 +61,10 @@ systemctl set-default graphical.target
 # append:
 #   DISPLAY=:0
 #   */2 * * * * /home/alls/scripts/batwarn.sh
+
+# chrome extensions:
+# adblock plus
+# dark reader
+# deepl traslate
+# video speed controller
+# rearrange tabs
