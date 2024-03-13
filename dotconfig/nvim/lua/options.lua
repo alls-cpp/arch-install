@@ -17,7 +17,6 @@ vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 vim.cmd [[autocmd BufLeave,FocusLost * silent! wall]]
 vim.cmd [[set noshowmode]]
 vim.cmd [[set matchpairs+=<:>]]
-vim.cmd [[colorscheme habamax]]
 
 -- remap space as leader key
 vim.g.mapleader = " "
@@ -25,6 +24,7 @@ vim.g.mapleader = " "
 -- from insert to normal mode
 vim.keymap.set("i", "jk", "<Esc>")
 
+-- autocomplete brackets
 vim.keymap.set("i", "{<CR>", "{<CR>}<Esc>O")
 
 -- move lines up and down in visual mode
@@ -61,7 +61,7 @@ vim.keymap.set("n", "<Tab>", ":bn<CR>")
 vim.keymap.set("n", "<S-Tab>", ":bp<CR>")
 
 -- close buffer
-vim.keymap.set("n", "<C-q>", ":bd<CR>")
+vim.keymap.set("n", "<C-q>", ":bd!<CR>")
 
 -- explorer
 vim.keymap.set("n", "<C-b>", ":Explore<CR>")

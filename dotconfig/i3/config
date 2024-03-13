@@ -78,7 +78,8 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +1%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 1%-
 
 # Application shortcuts
-bindsym $mod+Return exec kitty
+# bindsym $mod+Return exec kitty
+bindsym $mod+Return exec alacritty
 bindsym $mod+w exec chromium
 bindsym $mod+n exec nemo
 bindsym $mod+a exec pavucontrol
@@ -87,9 +88,11 @@ bindsym $mod+t exec telegram-desktop
 bindsym $mod+c exec code
 bindsym $mod+x exec xournalpp
 bindsym $mod+d exec dmenu_run -i -fn "JetBrains Mono" -nb "#2c2525" -nf "#fff1f3" -sf "#2c2525" -sb "#85dacc" 
+bindsym $mod+b exec blueman-manager
 
 # Python as calculator
-bindsym $mod+s exec kitty --name ciao -e /usr/bin/python3
+# bindsym $mod+s exec kitty --name ciao -e /usr/bin/python3
+bindsym $mod+s exec alacritty --class ciao -e /usr/bin/python3
 for_window [instance="ciao"] floating enable, [floating] resize set 800 400 , move position center
 
 # Assigning applications to workspaces
@@ -106,7 +109,7 @@ bindsym $mod+Shift+Tab workspace prev
 set $mode_system (L)ock (E)xit (R)eboot (P)oweroff
 bindsym $mod+Escape mode "$mode_system"
 mode "$mode_system" {
-    bindsym l exec --no-startup-id i3lock -c '#85dacc', mode "default"
+    bindsym l exec --no-startup-id i3lock -c '#8ec07c', mode "default"
     bindsym e exec --no-startup-id i3-msg exit, mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
     bindsym p exec --no-startup-id systemctl poweroff, mode "default"
@@ -114,14 +117,10 @@ mode "$mode_system" {
 }
 
 # colors
-set $black	    #2c2525
-set $white      #fff1f3
-set $pink       #ff6188
-set $blue       #85dacc
-set $green      #adda78
-set $orange     #f38d70
-set $yellow     #f9cc6c
-set $purple     #a8a9eb
+set $black	    #282828
+set $white      #ebdbb2
+set $red        #fb4934
+set $blue       #8ec07c
 
 # Bar Configuration
 bar {
@@ -134,13 +133,13 @@ bar {
         focused_workspace  $blue              $blue              $black
         inactive_workspace $black             $black             $white
         active_workspace   $black             $black             $blue
-        urgent_workspace   $pink              $pink              $black
-        binding_mode       $black             $purple            $black
+        urgent_workspace   $red               $red               $black
+        binding_mode       $black             $red               $black
       }
 }
 
 # Border color settings
-client.focused          $black  $black $blue   $pink   $blue
+client.focused          $black  $black $blue   $red    $blue
 client.focused_inactive $black  $black $blue   $black  $black
 client.unfocused        $black  $black $white  $black  $black
 

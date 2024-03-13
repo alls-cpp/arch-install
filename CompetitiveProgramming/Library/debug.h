@@ -144,8 +144,8 @@ void _print_name(string names)
     }
     cerr << RESET << " : ";
 }
-#define dbg(x...)     \
-    index_color = 0;  \
+#define dbg(x...)                                           \
+    index_color = 0;                                        \
     cerr << colors[colors.size() - 2] << __LINE__ << RESET; \
-    _print_name(#x);  \
+    _print_name(#x);                                        \
     _print(x);

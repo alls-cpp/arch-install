@@ -1,26 +1,21 @@
-local black = '#1C1C1C'
-local white = '#AFAFAF'
 return {
     "nvim-lualine/lualine.nvim",
     event = "VeryLazy",
     config = function()
         require('lualine').setup {
             options = {
-                component_separators = { left = '', right = ''},
-                section_separators = { left = '', right = ''},
+                theme='gruvbox',
+                icons_enabled = true,
+                component_separators = '',
+                section_separators = ''
             },
             sections = {
-                lualine_a = {'mode'},
-                lualine_b = {{'buffers',
-                    buffers_color = {
-                        active = { bg = black, fg = white },
-                        inactive = { bg = white, fg = black },
-                    }
-                }},
+                lualine_a = {{'filename', path = 3}},
+                lualine_b = {'diagnostics'},
                 lualine_c = {},
                 lualine_x = {},
-                lualine_y = {'diagnostics', 'filesize'},
-                lualine_z = {'location'},
+                lualine_y = {},
+                lualine_z = {'location'}
             },
             inactive_sections = {
                 lualine_a = {'filename'},
@@ -30,6 +25,9 @@ return {
                 lualine_y = {},
                 lualine_z = {},
             },
+            tabline = {
+                lualine_a = {'buffers'}
+            }
         }
     end,
 }

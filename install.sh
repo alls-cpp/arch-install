@@ -13,9 +13,6 @@ builddir=$(pwd)
 apt update
 apt upgrade -y
 
-# Install nala
-apt install nala -y
-
 # Making .config and moving config files
 cd $builddir
 mkdir -p /home/$username/.config
@@ -23,22 +20,23 @@ cp -R dotconfig/* /home/$username/.config/
 chown -R $username:$username /home/$username
 
 # Installing Programs 
-nala install i3 xorg kitty unzip wget pulseaudio pavucontrol build-essential curl nemo \
+apt install i3 xorg unzip wget pulseaudio pavucontrol build-essential curl nemo \
 chromium neofetch flameshot lightdm telegram-desktop fd-find fonts-font-awesome \
-lxappearance papirus-icon-theme zsh eog evince vlc suckless-tools bat xclip brightnessctl playerctl i3blocks nitrogen network-manager network-manager-gnome xournalpp blueman -y
+lxappearance papirus-icon-theme zsh eog evince vlc suckless-tools bat xclip \
+brightnessctl playerctl i3blocks nitrogen network-manager network-manager-gnome xournalpp blueman -y
 
 # Enable graphical login and change target from CLI to GUI
 systemctl enable lightdm
 systemctl set-default graphical.target
 
-# wifi problem
+# if wifi problem
 # into /etc/sudoers.d/sysctl
 # alls ALL = NOPASSWD: /bin/systemctl
 
 # Set zsh default shell
 # chsh -s $(which zsh)
 
-# Install eza, fzf, neovim, vscode(paste settings and keybindings in dotconfig/Code/User)
+# Install eza, fzf, neovim, alacritty, vscode(paste settings and keybindings in dotconfig/Code/User)
 # for fzf
 # Do you want to enable fuzzy auto-completion? No
 # Do you want to enable key bindings? Yes
@@ -63,5 +61,3 @@ systemctl set-default graphical.target
 # append:
 #   DISPLAY=:0
 #   */2 * * * * /home/alls/scripts/batwarn.sh
-
-
