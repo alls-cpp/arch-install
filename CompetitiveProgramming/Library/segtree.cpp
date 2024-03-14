@@ -11,14 +11,14 @@ struct SegmentTree {
 	int n;
 	vector<Node> st;
 
-	SegmentTree(const vector<int>& data) {
+	SegmentTree(const vector<Node>& data) {
 		n = 1;
 		while(n < (int)data.size()) n *= 2;
 		st.assign(2*n, unit);
 		for(int i = 0; i < (int)data.size(); i++) st[i+n] = Node{data[i]};
 		for(int i = n-1; i > 0; i--) st[i] = merge(st[2*i], st[2*i+1]);
 	}
-	void update(int p, int v) {
+	void update(int p, Node v) {
 		st[p += n] = Node{v};
 		for(p /= 2; p > 0; p /= 2) st[p] = merge(st[2*p], st[2*p+1]);
 	}
@@ -30,6 +30,8 @@ struct SegmentTree {
 		}
 		return merge(left, right);
 	}
+    // for dbg
+    vector<Node> values() {return vector<Node>(st.begin() + n, st.end());}
 	// Optional features start here
 	// condition on result of lower_bound(k)
 	bool cmp(Node nd, int k) { return nd >= k; } 

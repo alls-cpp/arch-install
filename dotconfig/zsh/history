@@ -4840,3 +4840,194 @@ git pull remote master
 cd debian-install
 code .
 code .
+cp -r ~/.config/alacritty .
+cp -r ~/.config/i3 .
+cp -r ~/.config/nvim .
+cp -r ~/.config/zsh ./dotconfig
+cp ~/.config/xournalpp/toolbar.ini dotconfig/xournalpp
+v ~/.config/xournalpp/toolbar.ini
+cp -r ~/CompetitiveProgramming/Library CompetitiveProgramming/Library
+cp -r ~/CompetitiveProgramming/Library CompetitiveProgramming/
+v Github/debian-install/install.sh
+v .config/i3/config
+v Github/debian-install/dotconfig/i3/config 
+code .
+cd Github/debian-install
+code .
+CompetitiveProgramming/tmp
+clone
+cd 
+cd
+v scripts/clone
+clone
+v scripts/clone
+clone
+NewWindow
+v scripts/clone
+clone
+cd CompetitiveProgramming
+clone
+v scripts/clone
+cd
+v scripts/clone
+ls
+l
+l
+v 
+cd CompetitiveProgramming
+cd CompetitiveProgramming
+touch a.cpp
+ls
+v a.cpp tmp/a.cpp
+l
+l
+l
+l
+l
+l
+cd
+v .config/alacritty/alacritty.toml
+v .config/i3/config 
+ls
+ls
+v .config/i3/config 
+cd CompetitiveProgramming/tmp
+v a.cpp
+cd
+l
+la
+ls
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+reset
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+reset
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+cd CompetitiveProgramming/tmp
+clone
+ls
+rm *
+v a.cpp in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+reset
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+g++ a.cpp -o a
+g++ a.cpp -o a && ./a < in0
+g++ a.cpp -o a -D && ./a < in0
+g++ a.cpp -o a -DALE && ./a < in0
+time g++ a.cpp -o a -DALE && ./a < in0
+time (g++ a.cpp -o a -DALE && ./a < in0)
+time (asd a.cpp&& ./a < in0)
+v ~/.config/zsh/.zshrc

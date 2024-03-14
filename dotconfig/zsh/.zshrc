@@ -24,12 +24,12 @@ alias la='ls -la'
 alias lt='ls --tree'
 alias bat='batcat'
 alias v='nvim'
-alias asd='f() { g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O3 -o a "$@" }; f'
-alias dasd='f() { g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O3 -DALE -o a "$@" }; f'
+alias asd='f() {g++ -std=gnu++20 -Ofast -o a "$@"}; f'
+alias dasd='f() { g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O2 -DALE -o a "$@" }; f'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_OPTS='--height 100%'
-export FZF_CTRL_T_COMMAND='fdfind --type f --strip-cwd-prefix --hidden --follow --exclude .git'
+export FZF_CTRL_T_COMMAND='fdfind --base-directory ~/ --type f --strip-cwd-prefix --hidden --follow --exclude .git'
 export FZF_CTRL_T_OPTS="--preview 'batcat -n --color=always {}' --bind 'ctrl-p:toggle-preview'"
 export FZF_ALT_C_COMMAND='fdfind --type d --hidden --follow --exclude .git'
