@@ -5031,3 +5031,330 @@ time g++ a.cpp -o a -DALE && ./a < in0
 time (g++ a.cpp -o a -DALE && ./a < in0)
 time (asd a.cpp&& ./a < in0)
 v ~/.config/zsh/.zshrc
+cp -r ~/CompetitiveProgramming/Library CompetitiveProgramming/Library
+cp -r ~/CompetitiveProgramming/Library CompetitiveProgramming
+cp -r ~/.config/zsh ./dotconfig
+cp -r ~/.config/i3 ./dotconfig
+v .config/nvim/lua/plugins/lualine.lua 
+v .config/nvim/lua/plugins/lualine.lua 
+cd CompetitiveProgramming/tmp
+ls
+v a.cpp in in0
+cd CompetitiveProgramming/tmp
+fasd a.cpp && ./a
+fasd a.cpp && ./a < in0
+v ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+fasd a.cpp && ./a < in0
+fasd a.cpp && ./a < in0
+time (fasd a.cpp && ./a < in)
+time (asd a.cpp && ./a < in)
+time (dasd a.cpp && ./a < in)
+time (dasd a.cpp && ./a < in)
+time (asd a.cpp && ./a < in)
+time (dasd a.cpp && ./a < in)
+v a.sh
+chmod a+x a.sh
+./a.sh
+v a.sh
+./a.sh
+v a.sh
+time (fasd a.cpp && ./a < in)\
+time (asd a.cpp && ./a < in)\
+time (dasd a.cpp && ./a < in)\
+
+source ~/.config/zsh/.zshrc
+\
+time (ddasd a.cpp && ./a < in)\
+time (dasd a.cpp && ./a < in)\
+
+\
+time (dasd a.cpp && ./a < in)\
+time (ddasd a.cpp && ./a < in)\
+
+\
+time (dasd a.cpp && ./a < in)\
+time (ddasd a.cpp && ./a < in)\
+
+source ~/.config/zsh/.zshrc
+\
+time (fasd a.cpp && ./a < in)\
+time (dasd a.cpp && ./a < in)\
+
+\
+time (fasd a.cpp && ./a < in)\
+time (dasd a.cpp && ./a < in)\
+
+\
+time (fasd a.cpp && ./a < in)\
+time (dasd a.cpp && ./a < in)\
+
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+time (asd a.cpp && ./a < in)
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+time (asd a.cpp && ./a < in)
+asd a.cpp && ./a < in
+man fdfind
+source ~/.config/zsh/.zshrc
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in
+reset
+reset
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp b.cpp && ./a < in
+dasd a.cpp b.cpp && ./a < in
+dasd a.cpp b.cpp && ./a < in
+asd a.cpp b.cpp && ./a < in
+reset
+v .config/nvim/lua/plugins/gruvbox.lua 
+v .config/nvim/lua/plugins/gruvbox.lua 
+v .config/nvim/lua/plugins/gruvbox.lua 
+cd CompetitiveProgramming/tmp
+v a.cpp
+cd CompetitiveProgramming/tmp
+v a.cpp in
+v a.cpp in
+v a.cpp in
+v .config/nvim/lua/plugins/gruvbox.lua 
+v CompetitiveProgramming/Library/Template.cpp 
+v CompetitiveProgramming/Library/Template.cpp 
+v .config/nvim/lua/plugins/gruvbox.lua 
+v .config/nvim/lua/plugins/gruvbox.lua 
+v .config/nvim/lua/plugins/gruvbox.lua 
+v .config/nvim/lua/plugins/lualine.lua 
+v .config/nvim/lua/plugins/lualine.lua 
+v .config/nvim/lua/plugins/lualine.lua 
+v .config/nvim/lua/plugins/lualine.lua 
+v .config/nvim/lua/plugins/lualine.lua 
+v .config/nvim/lua/plugins/lualine.lua 
+builtin cd -- .config/nvim/
+ls
+lua/plugins/
+v lualine.lua gruvbox.lua
+v lualine.lua gruvbox.lua
+v lualine.lua gruvbox.lua
+v lualine.lua gruvbox.lua
+v lualine.lua gruvbox.lua
+v lualine.lua gruvbox.lua
+v lualine.lua gruvbox.lua
+v lualine.lua gruvbox.lua
+v lualine.lua gruvbox.lua
+v
+neofetch
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a <in0
+asd -DALE a.cpp && ./a <in0
+dasd a.cpp && ./a <in0
+dasd a.cpp && ./a <in0
+dasd a.cpp && ./a <in0
+dasd a.cpp && ./a <in0
+dasd a.cpp && ./a <in0
+dasd a.cpp && ./a <in0
+dasd a.cpp && ./a <in0
+asd a.cpp && ./a <in0
+asd -DALE a.cpp && ./a < in0
+reset
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+reset
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+cd CompetitiveProgramming/tmp
+asd -DALE a.cpp && ./a
+asd -DALE a.cpp && ./a
+cd CompetitiveProgramming/tmp
+clone
+l
+rm in
+v a.cpp in0 in1
+ls
+cd scripts
+ls
+cd CompetitiveProgramming/tmp
+clone
+ls
+v a.cpp
+asd a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd brute.cpp && ./a < in0
+ls ../Library
+cp_compare --help
+cp_compare a brute gen 100
+cp_compare a brute gen 100
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 10000
+ls
+ls
+cd Downloads
+ls
+rm GriffithBerserk.png
+rm opera-stable_108.0.5067.24_amd64.deb
+ls
+evince isee.pdf
+rm isee.pdf
+ls
+evince ricevuta.pdf
+cd Downloads
+ls
+evince ricevuta.pdf
+cd CompetitiveProgramming/tmp
+ls
+clone
+rm brute.cpp gen.cpp
+ls
+rm input
+v a.cpp
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+asd -DALE a.cpp && ./a < in0
+cd CompetitiveProgramming/tmp
+clone
+v a.cpp in0
+ls
+rm *
+v a.cpp in0
+v .config/zsh/.zshrc 
+v ~/.config/zsh/.zshrc 
+source ~/.config/zsh/.zshrc
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+reset
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+bash
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in1
+ddasd a.cpp && ./a < in1
+asd a.cpp && ./a < in1
+asd a.cpp && ./a
+asd a.cpp && ./a
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+cp in1 wa
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd brute.cpp&& ./a < in1
+asd brute.cpp && ./a < in0
+asd brute.cpp && ./a < in0
+asd brute.cpp && ./a < in1
+dasd brute.cpp && ./a < in1
+dasd brute.cpp && ./a < in1
+dasd brute.cpp && ./a < in1
+dasd brute.cpp && ./a < in1
+dasd brute.cpp && ./a < in1
+dasd brute.cpp && ./a < in1
+dasd brute.cpp && ./a < in0
+asd gen.cpp && ./a
+asd gen.cpp && ./a
+ddasd gen.cpp && ./a
+ddasd gen.cpp && ./a
+ddasd gen.cpp && ./a
+ddasd gen.cpp && ./a
+cp_compare a brute gen 100
+cp_compare a brute gen 100
+cp_compare a brute gen 100
+cp_compare a brute gen 100
+cp_compare a brute gen 100
+neofetch

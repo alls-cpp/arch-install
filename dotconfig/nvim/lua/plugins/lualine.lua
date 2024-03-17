@@ -4,7 +4,7 @@ return {
     config = function()
         require('lualine').setup {
             options = {
-                theme='gruvbox',
+                --theme='gruvbox',
                 icons_enabled = true,
                 component_separators = '',
                 section_separators = ''
@@ -26,8 +26,12 @@ return {
                 lualine_z = {},
             },
             tabline = {
-                lualine_a = {'buffers'}
-            }
+                lualine_a = {{'buffers',
+                    buffers_color = {
+                        active = {bg = '#b8bb26', fg = '#282828'},
+                        inactive = {fg = '#b8bb26', bg = '#282828'},
+                    },
+            }}}
         }
-    end,
+    end
 }

@@ -5,7 +5,8 @@ size = 10
 family = "JetBrainsMono Nerd Font"
 
 [window]
-padding = { x = 1, y = 1 }
+padding = { x = 0, y = 0 }
+dynamic_padding = true
 
 [colors]
 cursor = {text = "0x282828", cursor = "0xebdbb2"}
