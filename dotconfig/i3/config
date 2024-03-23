@@ -78,7 +78,6 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +1%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 1%-
 
 # Application shortcuts
-# bindsym $mod+Return exec kitty
 bindsym $mod+Return exec alacritty
 bindsym $mod+w exec chromium
 bindsym $mod+n exec nemo
@@ -91,7 +90,6 @@ bindsym $mod+d exec dmenu_run -i -fn "JetBrains Mono" -nb "#2c2525" -nf "#fff1f3
 bindsym $mod+b exec blueman-manager
 
 # Python as calculator
-# bindsym $mod+s exec kitty --name ciao -e /usr/bin/python3
 bindsym $mod+s exec alacritty --class ciao -e /usr/bin/python3
 for_window [instance="ciao"] floating enable, [floating] resize set 800 400 , move position center
 
@@ -148,3 +146,4 @@ exec --no-startup-id sudo systemctl restart wpa_supplicant
 exec --no-startup-id sudo systemctl restart NetworkManager
 exec --no-startup-id nm-applet
 exec --no-startup-id blueman-applet
+exec --no-startup-id setxkbmap -option caps:escape
