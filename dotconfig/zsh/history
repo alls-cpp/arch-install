@@ -5358,3 +5358,328 @@ cp_compare a brute gen 100
 cp_compare a brute gen 100
 cp_compare a brute gen 100
 neofetch
+cd Github/debian-install
+ls
+git status
+git pull
+code .
+git status
+git add 
+git diff
+ls
+v README.md
+git status
+git diff
+git checkout README.md
+ls
+git diff
+cd dotconfig
+ls
+cd zsh
+ls
+git status
+cd plugins
+ls
+la
+..
+l
+la
+..
+../
+ls
+l
+v update.sh
+cp ~/.config/nvim/ dotconfig/nvim
+cp -r ~/.config/nvim/ dotconfig/nvim
+git status
+git diff
+cd dotconfig/nvim
+ls
+rm -r nvim
+..
+..
+cp -r ~/.config/nvim/ dotconfig
+git diff
+ls
+v setup.sh
+ls dotconfig
+v setup.sh
+chmod a+x setup.sh
+ls
+mv setup.sh update.sh
+./update.sh
+ls
+code .
+git diff dotconfig/zsh/.zshrc
+ls
+ls CompetitiveProgramming
+ls CompetitiveProgramming/Library
+cp -r ~/CompetitiveProgramming/Library CompetitiveProgramming
+git diff
+code .
+rm ~/.config/alacritty/aalacritty.toml
+bat update.sh
+bat --theme='gruvbox-dark' update.sh
+bat --theme='gruvbox-ligth' update.sh
+bat --theme='gruvbox-dark' update.sh
+v ~/.config/zsh/.zshrc 
+source ~/.config/zsh/.zshrc
+bat update.sh
+v ~/.config/zsh/.zshrc 
+source ~/.config/zsh/.zshrc
+bat update.sh
+./update.sh
+v dotconfig/zsh/.zshrc
+git add .
+git status
+git push
+git commit -m "ciao"
+git status
+git push
+code .
+ls -al ~/.ssh\
+
+git push
+cd Github/debian-install
+git push
+v Github/debian-install
+cd Github/debian-install
+ls
+v README.md
+git add .
+git commit -m "aaa"
+git push
+git push
+ssh-keygen -t ed25519 -C "alessiodevito73@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+gh
+v .ssh/id_ed25519.pub
+v .ssh/id_ed25519.pub
+cd Github/debian-install
+..
+rm -r debian-install
+sudo rm -r debian-install
+git clone git@github.com:alls-cpp/debian-install.git
+ls
+cd debian-install
+ls
+v README.md
+git add .
+git push
+git commit -m "miaomiao"
+git push
+git reset --hard HEAD^
+ls
+git status
+git pull
+v README.md
+git reset --hard HEAD^
+v README.md
+git diff
+git add .
+ls
+git commit -m 'a'
+v README.md
+git status
+git add .
+git commit -m 'baubau'
+git push
+git pull
+git diff
+v README.md
+git config pull.rebase false
+v README.md
+git push
+ls
+l
+la
+git pull
+ls
+v README.md
+git commit -m 'baubaua'
+v README.md
+git diff
+git add .
+git commit -m 'baubaua'
+git push
+git pull
+git config pull.rebase false
+git push -f origin HEAD^:master
+git push -f origin HEAD^:main
+v README.md
+git dif
+git diff
+git status
+git pull
+git commit
+git tree
+git worktree
+git worktree list
+git pull
+git status
+git log
+git log origin/main..HEAD\
+
+git reset --soft HEAD~2\
+
+git diff
+v README.md
+git status
+git pull
+git checkout README.md
+ls
+v README.md
+git diff
+git pull
+git pull --merge
+git config pull.rebase false
+ls
+v README.md
+git pull
+ls
+v README.md
+git pull 
+git pull 
+git restore README.md
+git pull
+v README.md
+v README.md
+git pull
+git stash
+ls
+git pull
+v README.md
+git diff
+git pull
+git stash list
+git stash drop
+git stash list
+CompetitiveProgramming/tmp
+ls
+clone
+v a.cpp in0 n
+ls
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+CompetitiveProgramming/tmp
+l
+v a.cpp in0 in1
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+sd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+reset
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+CompetitiveProgramming/tmp
+clone
+v a.cpp in0 in1
+asd a.cpp && ./a
+asd a.cpp && ./a
+asd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+ls
+rm aa
+rm aa
+reset
+CompetitiveProgramming/tmp
+clone
+v a.cpp in0 in1
+ls
+cd CompetitiveProgramming
+mkdir reply
+cd
+cd Downloads
+ls
+rm 05-horror.txt 04-drama.txt 03-adventure.txt
+unzip zipp.zip
+ls
+cat main.cpp
+cd Downloads
+ls
+mv 0* ../CompetitiveProgramming/reply
+ls
+ls
+asd dijkstra.cpp && ./a < 00-trailer.txt
+asd dijkstra.cpp && ./a < 01-trailer.txt
+asd dijkstra.cpp && ./a < 01-comedy.txt
+asd dijkstra.cpp && ./a < 01-comedy.txt
+asd dijkstra.cpp && ./a < 01-comedy.txt
+asd dijkstra.cpp && ./a < 05-horror.txt
+asd dijkstra.cpp && ./a < 05-horror.txt
+cd CompetitiveProgramming
+ls
+rm -r reply
+rm a.cpp
+cd tmp
+l
+v a.cpp in0
+asd a.cpp && ./a < in0
+reset
+asd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+asd a.cpp && ./a
+CompetitiveProgramming/tmp
+clone
+v a.cpp in0 in1
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+reset
+reset
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
