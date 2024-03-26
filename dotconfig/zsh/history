@@ -5846,3 +5846,43 @@ asd a.cpp && ./a
 asd a.cpp && ./a
 cpc a.cpp
 v .config/i3/config
+i
+ia
+v .config/i3/config
+apt show setxkbmap
+builtin cd -- Github/debian-install/
+v update.sh
+ls
+./update.sh
+cd dotconfig
+l
+v .config/i3/config 
+CompetitiveProgramming/tmp
+clone
+v a.cpp in0
+asd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in1
+cpc a.cpp
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+cpc a.cpp
+CompetitiveProgramming/tmp
+clone
+v a.cpp in0 in1
