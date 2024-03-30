@@ -36,9 +36,9 @@ if [ "$#" -ne 4 ]; then
 fi
 
 rm $1 $2 $3 2> /dev/null
-g++ -Ofast $1.cpp -o $1
-g++ -Ofast $2.cpp -o $2
-g++ -Ofast $3.cpp -o $3
+g++ -Ofast -std=c++20 $1.cpp -o $1
+g++ -Ofast -std=c++20 $2.cpp -o $2
+g++ -Ofast -std=c++20 $3.cpp -o $3
 if [ ! -f $1 ] || [ ! -f $2 ] || [ ! -f $3 ]; then
     exit 0
 fi

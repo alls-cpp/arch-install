@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ~/CompetitiveProgramming/tmp
+rm *
+cp ~/CompetitiveProgramming/Library/Template.cpp a.cpp
+cp ~/CompetitiveProgramming/Library/gen.cpp gen.cpp
+clone
+nvim a.cpp in0

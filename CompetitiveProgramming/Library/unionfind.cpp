@@ -1,8 +1,8 @@
 /**
  * Description: Disjoint-set data structure.
- * Time: $O(\alpha(N))$
+ * Time: O(alpha(N))
  * Source: https://github.com/kth-competitive-programming/kactl
- */
+**/
 
 struct UF {
 	vector<int> e;

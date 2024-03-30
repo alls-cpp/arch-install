@@ -2,7 +2,7 @@
  * Description: Zero-indexed segment tree.
  * Time: O(log N)
  * Source: https://github.com/cp-sapienza/booklet
- */
+**/
 struct SegmentTree {
 	using Node = int;
 	Node unit = Node(0); // s.t. for every x merge(x, unit) = x

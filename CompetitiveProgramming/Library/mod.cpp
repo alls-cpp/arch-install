@@ -1,7 +1,7 @@
 /**
  * Description: Modular arithmetic operations
  * Source: https://codeforces.com/contest/1916/submission/239663995
- */
+**/
 
 template <int MOD> struct mint {
 	static const int mod = MOD;
