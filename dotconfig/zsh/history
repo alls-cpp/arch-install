@@ -6176,3 +6176,116 @@ cp_compare a sol gen 10000
 
 ls
 asd a.cpp
+cp_setup
+l
+cd Github/debian-install
+./update.sh
+git log
+git show 5073db2256d065193b7a10340c410762f947f19d
+v update.sh
+ls
+cd CompetitiveProgramming/
+ls
+cd Library
+ls
+v ../../update.sh
+../../
+cp * ~/CompetitiveProgramming/Library/ CompetitiveProgramming/Library
+l
+ls CompetitiveProgramming
+ls CompetitiveProgramming/Library
+rm * ./CompetitiveProgramming/Library
+cp * ~/CompetitiveProgramming/Library/ ./CompetitiveProgramming/Library/
+ls CompetitiveProgramming/Library
+rm * ./CompetitiveProgramming/Library
+ls CompetitiveProgramming/Library
+cd CompetitiveProgramming/Library
+ls
+rm *
+ls
+..
+ls
+..
+ls
+git status
+git restore *
+ls
+git status
+git restore -r *
+l
+..
+ls
+git status
+cd debian-install
+ls
+git restore
+git restore /
+git restore /.
+git restore .
+ls
+git status
+cp -r ~/CompetitiveProgramming/Library ./CompetitiveProgramming/Library/
+ls
+ls CompetitiveProgramming/Library
+rm * ./CompetitiveProgramming/Library/
+rm * CompetitiveProgramming/Library/
+ls
+cd CompetitiveProgramming/Library
+ls
+rm -r *
+ls
+..
+..
+ls
+cd CompetitiveProgramming
+mkdir Library
+l
+..
+ls
+l
+cp -r ~/CompetitiveProgramming/Library CompetitiveProgramming/Library/
+cd CompetitiveProgramming
+l
+cd Library
+l
+cd Library
+l
+..
+rm -r Library
+..
+..
+cp -r ~/CompetitiveProgramming/Library CompetitiveProgramming/
+cd CompetitiveProgramming
+l
+cd Library
+l
+..
+..
+l
+ls
+v update.sh
+git status
+git restore .
+ls
+git status
+rm CompetitiveProgramming/Library/cp_setup
+rm CompetitiveProgramming/Library/pbds.cpp
+rm CompetitiveProgramming/Library/gen.cpp
+git status
+./update.sh
+cd CompetitiveProgramming/Library
+ls
+..
+..
+ls
+cd scripts
+ls
+..
+ls
+code .
+./update.sh
+git log
+git show 8a03ab36ef6b4af698f522da50ae75b9be67e9d1
+./update.sh
+./update.sh
+./update.sh
