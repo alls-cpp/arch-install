@@ -5886,3 +5886,293 @@ cpc a.cpp
 CompetitiveProgramming/tmp
 clone
 v a.cpp in0 in1
+dasd a.cpp && ./a
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+cpc a.cpp
+cpc a.cpp
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp
+ddasd a.cpp
+ls
+rm b.cpp gen.cpp sol.cpp input
+ls
+rm a
+g++ a.cpp
+asd a.cpp
+v .config/zsh/.zshrc 
+v ~/.config/zsh/.zshrc 
+source ~/.config/zsh/.zshrc
+asd a.cpp
+source ~/.config/zsh/.zshrc
+v ~/.config/zsh/.zshrc 
+source ~/.config/zsh/.zshrc
+asd a.cpp
+g++ -Ofast a.cpp
+v ~/.config/zsh/.zshrc 
+g++ -std=c++20 a.cpp
+l
+rm a
+rm a.out
+asd a.cpp && ./a
+dasd a.cpp && ./a < in0
+$XDG_CONFIG_HOME
+cd 
+ls
+mkdir clangd
+ls
+cd clangd
+v config.yaml
+v config.yaml
+v config.yaml
+..
+ls
+rm -r clangd
+cd .config
+mkdir clangd
+cd clangd
+v config.yaml
+v config.yaml
+v ~/.config/zsh/.zshrc 
+v config.yaml
+cd
+cd Github/debian-install
+ls
+v update.sh
+v update.sh
+v update.sh
+./update.sh
+ls
+cd dotconfig
+ls
+.
+..
+v update.sh
+./update.sh
+cd
+CompetitiveProgramming/tmp
+reset
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+cpc a.cpp
+v ../Library/gen.cpp
+v ../Library/gen.cpp
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+asd a.cpp && ./a
+asd a.cpp && ./a
+cp_compare a sol gen 1000
+asd sol.cpp && ./a
+asd sol.cpp && ./a
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+OA
+cp_compare a sol gen 1000
+reset
+ddasd a.cpp
+asd sol.cpp && ./a < in0
+asd a.cpp && ./a < in0
+cpc a.cpp
+asd sol.cpp && ./a < in0
+asd a.cpp && ./a < in0
+cpc a.cpp
+asd sol.cpp && ./a < in0
+asd a.cpp && ./a < in0
+cpc a.cpp
+cpc a.cpp
+cpc a.cpp
+asd sol.cpp && ./a < in0 > dio
+asd a.cpp && ./a < in0 > dio1
+diff dio dio1
+asd sol.cpp && ./a < in0 > dio
+asd sol.cpp && ./a < in0 > dio
+asd sol.cpp && ./a < in0 > dio
+asd sol.cpp && ./a < in0 > dio
+asd a.cpp && ./a < in0 > dio1
+diff dio dio1
+asd a.cpp && ./a < in0
+asd sol.cpp && ./a < in0
+asd sol.cpp && ./a < in0 > asol
+asd a.cpp&& ./a < in0 > amy
+diff asol amy
+asd sol.cpp && ./a < in0 > asol
+asd a.cpp && ./a < in0 > amy
+diff asol amy
+asd a.cpp && ./a < in0
+asd sol.cpp && ./a < in0
+cpc in0
+asd a.cpp && ./a < in0
+cpc a.cpp
+cpc a.cpp
+reset
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+cpc a.cpp
+CompetitiveProgramming/tmp
+clone
+v a.cpp in0 in1
+v .config/nvim/lua/plugins/lsp.lua 
+v ~/.config/nvim/lua/plugins/lsp.lua 
+v a.cpp in0 in1
+v ~/.config/nvim/lua/plugins/lsp.lua 
+v a.cpp in0 in1
+v a.cpp in0 in1
+v ~/.config/nvim/lua/plugins/lsp.lua 
+v a.cpp in0 in1
+v a.cpp in0 in1
+v compile_flags.txt
+v a.cpp in0 in1
+v compile_flags.txt
+mv compile_flags.txt compile_flags.txta
+ls
+v a.cpp
+v .config/nvim/lua/plugins/lsp.lua 
+v ~/.config/nvim/lua/plugins/lsp.lua 
+l
+rm compile_flags.txta
+v a.cpp
+v ~/.config/nvim/lua/options.lua 
+v a.cpp
+v gen.cpp
+l
+rm dio*
+rm input
+rm sol.cpp
+rm gen.cpp
+ls
+rm amy asol in1
+v a.cpp in0
+cd CompetitiveProgramming
+ls
+cd
+cd Github
+ls
+mkdir CSES
+ls
+cd CSES
+..
+rmdir CSES
+cd
+cd CompetitiveProgramming/tmp
+clone
+l
+rm sol.cpp
+ls
+v a.cpp in0
+cd CompetitiveProgramming/tmp
+ddasd a.cpp
+gdb ./a
+dbg
+sudo apt install gdb
+gdb ./a
+gdb ./a
+cd CompetitiveProgramming/tmp
+gdb ./a
+gdb ./a
+ddasd a.cpp
+gdb ./a
+CompetitiveProgramming/tmp
+clone
+l
+v a.cpp in0 in1
+ /usr/bin/env /bin/sh /tmp/Microsoft-MIEngine-Cmd-zzjw05kn.cdv 
+ /usr/bin/env /bin/sh /tmp/Microsoft-MIEngine-Cmd-nt54qb4l.zoe 
+ /usr/bin/env /bin/sh /tmp/Microsoft-MIEngine-Cmd-htpbptwg.rpn 
+cpc ../Library/Template.cpp
+CompetitiveProgramming/tmp
+l
+asd a.cpp
+l
+ls
+la
+ll
+lt
+v
+cd CompetitiveProgramming/tmp
+clone
+v a.cpp in0
+cp ../Library/Template.cpp a.cpp
+v a.cpp in0
+CompetitiveProgramming/tmp
+clone
+cd
+bat scripts/clone
+cd
+v scripts/cp_setup
+chmod a+x scripts/cp_setup
+cp_setup
+mv scripts/cp_setup CompetitiveProgramming/Library
+cd CompetitiveProgramming/Library
+ls
+l
+v cp_setup
+v cp_setup
+v cp_setup
+ls
+cd
+cd CompetitiveProgramming/tmp
+ls
+../Library
+v cp_setup
+cd
+asd a.cpp
+ddasd a.cpp
+asd a.cpp
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+cpc a.cpp
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+dasd a.cpp && ./a < input
+dasd a.cpp && ./a < input
+dasd a.cpp && ./a < input
+asd a.cpp && ./a < input
+cpc a.cpp
+cp_compare a sol gen 1000
+cp_compare a sol gen 10000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+dasd a.cpp && ./a < input
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 5000
+dasd a.cpp && ./a < input
+asd a.cpp
+asd a.cpp && ./a < input
+asd a.cpp && ./a < input
+asd a.cpp && ./a < input
+dasd a.cpp && ./a < input
+dasd a.cpp && ./a < input
+asd a.cpp && ./a < in0
+cp_compare a sol gen 5000
+v ../Library/cp_compare
+cp_compare a sol gen 5000
+v ../Library/cp_validate
+cpc a.cpp
+cp_compare a sol gen 10000
+cpc a.cpp
+cpc a.cpp
+cp_compare a sol gen 10000
+            sudo apt install python3.11-venv\
+
+ls
+asd a.cpp

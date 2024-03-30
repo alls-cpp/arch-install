@@ -22,7 +22,7 @@ vim.cmd [[set matchpairs+=<:>]]
 vim.g.mapleader = " "
 
 -- from insert to normal mode
-vim.keymap.set("i", "jk", "<Esc>")
+-- vim.keymap.set("i", "jk", "<Esc>")
 
 -- autocomplete brackets
 vim.keymap.set("i", "{<CR>", "{<CR>}<Esc>O")
