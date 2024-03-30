@@ -6,4 +6,4 @@ cd debian-install
 sudo ./install.sh
 ```
 
-![alt text](https://github.com/alls-cpp/debian-install/blob/main/a.png)
+![alt text](https://github.com/alls-cpp/debian-install/blob/main/desktop.png)
