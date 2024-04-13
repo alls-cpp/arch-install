@@ -52,6 +52,7 @@ do
     result=$(cat res)
     if [ "${result:0:2}" != "OK" ];
     then
+        echo ""
         echo -e "${RED}Error found!${NC}"
         echo -e "${BLUE}Input:${NC}"
         cat input

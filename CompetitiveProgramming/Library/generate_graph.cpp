@@ -1,66 +1,76 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 #define uid(a, b) uniform_int_distribution<int>(a, b)(rng)
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
-struct UF {
-	vector<int> e;
-	UF(int n) : e(n, -1) {}
-	bool sameSet(int a, int b) { return find(a) == find(b); }
-	int size(int x) { return -e[find(x)]; }
-	int find(int x) { return e[x] < 0 ? x : e[x] = find(e[x]); }
-	bool join(int a, int b) {
-		a = find(a), b = find(b);
-		if (a == b) return false;
-		if (e[a] > e[b]) swap(a, b);
-		e[a] += e[b]; e[b] = a;
-		return true;
+
+void generate_graph() {
+	vector<vector<array<int, 3>>> graph;
+	bool weighted, directed, acyclic, one_indexed;
+	int components, total_nodes, total_edges;
+	components = 1;
+	total_nodes = total_edges = 0;
+
+	one_indexed = false;
+	acyclic   	= false;
+	weighted  	= false;
+	directed  	= false;
+
+	while (components--) {
+		int num_nodes, num_edges, edges_min, edges_max, weight_min, weight_max;
+		num_nodes = uid(1, 10);
+		
+		edges_min = num_nodes - 1;
+		edges_max = num_nodes * (num_nodes - 1) / 2;
+
+		if (directed) edges_max = num_nodes * (num_nodes - 1);
+		if (acyclic) edges_max = num_nodes - 1;
+
+		num_edges = uid(edges_min, edges_max);
+
+		if (weighted) {
+			weight_min = 1;
+			weight_max = 100;
+		}
+
+		// {u, v, w}
+		vector<array<int, 3>> edges;
+		unordered_set<int> already_connected;
+
+		for (int i = 1; i < num_nodes; i++) {
+			int u = i;
+			int v = uid(0, i - 1);
+			int w = weighted ? uid(weight_min, weight_max) : 0;
+			edges.push_back({u, v, w});
+			already_connected.insert(u * num_nodes + v);
+			if (directed == false) already_connected.insert(v * num_nodes + u);
+		}
+
+		for (int i = num_nodes - 1; i < num_edges; i++) {
+			int u, v;
+			bool flag;
+			do {
+				u = uid(0, num_nodes - 1);
+				v = uid(0, num_nodes - 1);
+				flag = (u == v || already_connected.count(u * num_nodes + v));
+				if (directed == false) flag |= already_connected.count(v * num_nodes + u);
+			} while (flag);
+			int w = weighted ? uid(weight_min, weight_max) : 0;
+			edges.push_back({u, v, w});
+			already_connected.insert(u * num_nodes + v);
+			if (directed == false) already_connected.insert(v * num_nodes + u);
+		}
+
+		graph.push_back(edges);
+		total_nodes += num_nodes;
+		total_edges += num_edges;	
 	}
-};
-/**
- * This function does not generate a graph with self loops or multiple edges
- */
-void generate_graph(bool connected = false, bool weighted = false, bool directed = false) {
-    // careful with the number of vertices, maybe you need at least x
-    int n = uid(1, 10), m;
-    if (connected)
-        m = uid(n - 1, n * (n - 1) / 2);
-    else
-        m = uid(0, n * (n - 1) / 2);
-    cout << n << " " << m << endl;
-    unordered_set<int> edges;
-    if (connected) {
-        UF uf(n);
-        for (int i = 1; i <= n; i++) {
-            int from = i, to;
-            do {
-                to = uid(0, i - 1);
-            } while (uf.sameSet(from, to) || (directed ? edges.count(from * n + to) : edges.count(from * n + to) || edges.count(to * n + from)));
-            uf.join(from, to);
-            edges.insert(from * n + to);
-            if (!directed)
-                edges.insert(to * n + from);
-            cout << from << " " << to << " " << (weighted ? to_string(uid(1, 100)) : "") << endl;
-        }
-        for (int i = n - 1; i < m; i++) {
-            int from, to;
-            do {
-                from = uid(0, n - 1);
-                to = uid(0, n - 1);
-            } while (from == to || (directed ? edges.count(from * n + to) : edges.count(from * n + to) || edges.count(to * n + from)));
-            edges.insert(from * n + to);
-            if (!directed)
-                edges.insert(to * n + from);
-            cout << from << " " << to << " " << (weighted ? to_string(uid(1, 100)) : "") << endl;
-        }
-    } else {
-        for (int i = 0; i < m; i++) {
-            int from, to;
-            do {
-                from = uid(0, n - 1);
-                to = uid(0, n - 1);
-            } while (from == to || (directed ? edges.count(from * n + to) : edges.count(from * n + to) || edges.count(to * n + from)));
-            edges.insert(from * n + to);
-            if (!directed)
-                edges.insert(to * n + from);
-            cout << from << " " << to << " " << (weighted ? to_string(uid(1, 100)) : "") << endl;
-        }
-    }
+
+	cout << total_nodes << " " << total_edges << endl;
+    // TODO: use offset because you have to increase the index of the vertices if we have muliple components
+	for (auto &component : graph) {
+		for (auto &[u, v, w] : component) {
+			cout << u + one_indexed << " " << v + one_indexed << (weighted ? (" " + to_string(w) + "\n") : "\n");
+		}
+	}
 }

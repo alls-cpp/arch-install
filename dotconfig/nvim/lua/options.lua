@@ -21,9 +21,6 @@ vim.cmd [[set matchpairs+=<:>]]
 -- remap space as leader key
 vim.g.mapleader = " "
 
--- from insert to normal mode
--- vim.keymap.set("i", "jk", "<Esc>")
-
 -- autocomplete brackets
 vim.keymap.set("i", "{<CR>", "{<CR>}<Esc>O")
 

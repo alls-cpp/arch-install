@@ -1,7 +1,16 @@
 #!/bin/bash
 cd ~/CompetitiveProgramming/tmp
-rm *
-cp ~/CompetitiveProgramming/Library/Template.cpp a.cpp
+find . ! -name 'a.cpp' -type f -exec rm -f {} +
+# if a.cpp exist, ask to delete
+if [ -f a.cpp ]; then
+    echo "a.cpp already exists. Do you want to delete it? (y/n)"
+    read ans
+    if [ $ans = "y" ]; then
+        cp ~/CompetitiveProgramming/Library/Template.cpp a.cpp
+    fi
+else
+    cp ~/CompetitiveProgramming/Library/Template.cpp a.cpp
+fi
 cp ~/CompetitiveProgramming/Library/gen.cpp gen.cpp
 clone
 nvim a.cpp in0
