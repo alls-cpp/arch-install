@@ -12,5 +12,6 @@ else
     cp ~/CompetitiveProgramming/Library/Template.cpp a.cpp
 fi
 cp ~/CompetitiveProgramming/Library/gen.cpp gen.cpp
-clone
+touch in0
+/home/alls/scripts/clone
 nvim a.cpp in0

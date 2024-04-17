@@ -7356,3 +7356,184 @@ asd generate_graph.cpp && ./a
 asd generate_graph.cpp && ./a
 asd generate_graph.cpp && ./a
 asd generate_graph.cpp && ./a
+cat a.cpp
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+reset
+cd
+cd .config
+mkdir vim
+cd vim
+v .vimrc
+cd
+CompetitiveProgramming/tmp
+asd a.cpp && ./a < in0
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+asd a.cpp && ./a < in0
+cpc a.cpp
+cpc a.cpp
+cpc a.cpp
+asd a.cpp && ./a < in0
+cpc a.cpp
+asd gen.cpp && ./a
+asd gen.cpp && ./a > tst
+asd a.cpp && ./a < tst
+asd gen.cpp && ./a > tst
+(asd gen.cpp && ./a > tst) && (asd a.cpp && ./a < tst)
+(asd gen.cpp && ./a > tst) && (asd a.cpp && ./a < tst)
+(asd gen.cpp && ./a > tst) && (asd a.cpp && ./a < tst)
+(asd gen.cpp && ./a > tst) && (asd a.cpp && ./a < tst)
+(asd gen.cpp && ./a > tst) && (asd a.cpp && ./a < tst)
+(asd gen.cpp && ./a > tst) && (asd a.cpp && ./a < tst)
+(asd gen.cpp && ./a > tst) && (asd a.cpp && ./a < tst)
+(asd gen.cpp && ./a > tst) && (asd a.cpp && ./a < tst)
+(asd gen.cpp && ./a > tst) && (asd a.cpp && ./a < tst)
+(asd gen.cpp && ./a > tst) && (asd a.cpp && ./a < tst)
+(asd gen.cpp && ./a > tst) && (asd a.cpp && ./a < tst)
+(asd gen.cpp && ./a > tst) && (asd a.cpp && ./a < tst)
+(asd gen.cpp && ./a > tst) && (asd a.cpp && ./a < tst)
+reset
+cp_compare a sol gen 100
+cp_compare a sol gen 100
+cp_compare a sol gen 100
+cp_compare a sol gen 100
+cp_compare a sol gen 100
+cp_compare a sol gen 100
+asd a.cpp && ./a
+cp_compare a sol gen 100
+asd a.cpp && ./a < in0
+cpc a.cpp
+cp_compare a sol gen 100
+cp_compare a sol gen 100
+cp_compare a sol gen 100
+cpc a.cpp
+cp_compare a sol gen 1000
+cd
+cd Github
+l
+cd debian-install
+l
+./update.sh
+..
+l
+CSES
+l
+python3 update.py
+v update.py
+cp_setup
+CompetitiveProgramming/tmp
+l
+vim a.cpp
+v a.cpp
+vim a.cpp
+vim a.cpp
+vim a.cpp
+v a.cpp in0
+CompetitiveProgramming/Library
+l
+rm a
+cat Template.cpp
+bat Template.cpp
+asd a.cpp && ./a
+asd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+cp_setup
+Downloads/Telegram\ Desktop
+python3 totale_treni.py
+python3 totale_treni.py
+cd Downloads/Telegram\ Desktop
+l
+ls
+v totale_treni.py
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+cpc a.cpp
+asd a.cpp && ./a < in0
+cpc a.cpp
+cpc a.cpp
+asd a.cpp && ./a
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+cpc a.cpp
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd b.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd b.cpp && ./a
+dasd b.cpp && ./a
+dasd a.cpp && ./a
+dasd b.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+cpc a.cpp
+cpc a.cpp
+dasd a.cpp && ./a < in0
+cpc a.cpp
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+cp_setup
+cp_setup
+asd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+cpc a.cpp
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+cpc a.cpp
+reset
+v CompetitiveProgramming/Library/cp_setup

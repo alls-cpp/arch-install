@@ -84,7 +84,7 @@ bindsym $mod+n exec nemo
 bindsym $mod+a exec pavucontrol
 bindsym $mod+p exec flameshot gui
 bindsym $mod+t exec telegram-desktop
-bindsym $mod+c exec code
+bindsym $mod+v exec code
 bindsym $mod+x exec xournalpp
 bindsym $mod+d exec dmenu_run -i -fn "JetBrains Mono" -nb "#2c2525" -nf "#fff1f3" -sf "#2c2525" -sb "#85dacc" 
 bindsym $mod+b exec blueman-manager
@@ -92,6 +92,9 @@ bindsym $mod+b exec blueman-manager
 # Python as calculator
 bindsym $mod+s exec alacritty --class ciao -e /usr/bin/python3
 for_window [instance="ciao"] floating enable, [floating] resize set 800 400 , move position center
+
+# Competitive programming setup
+bindsym $mod+c exec alacritty -e /home/alls/CompetitiveProgramming/Library/cp_setup
 
 # Assigning applications to workspaces
 assign [class="(?i)chromium"] $ws1
