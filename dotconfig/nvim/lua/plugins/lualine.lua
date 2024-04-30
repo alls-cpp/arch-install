@@ -28,8 +28,8 @@ return {
             tabline = {
                 lualine_a = {{'buffers',
                     buffers_color = {
-                        active = {bg = '#b8bb26', fg = '#282828'},
-                        inactive = {fg = '#b8bb26', bg = '#282828'},
+                        active = {bg = '#8ec07c', fg = '#282828'},
+                        inactive = {fg = '#8ec07c', bg = '#282828'},
                     },
             }}}
         }

@@ -7537,3 +7537,397 @@ dasd a.cpp && ./a < in
 cpc a.cpp
 reset
 v CompetitiveProgramming/Library/cp_setup
+v .config/i3/config 
+cd Github/debian-install
+l
+./update.sh
+git log
+git show b907ce9547ffe028b2e5c8bce38bec620c891a9e
+v CompetitiveProgramming/Library/cp_setup
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+cpc a.cpp
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+cpc a.cpp
+asd a.cpp && ./a < in0
+cpc a.cpp
+asd a.cpp && ./a < in0
+cpc a.cpp
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+asd a.cpp && ./a < in0
+cpc a.cpp
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+cpc a.cpp
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+cpc a.cpp
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+dasd a.cpp && ./a 
+1
+asd a.cpp && ./a 
+dasd a.cpp && ./a 
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 1000
+cp_compare a brute gen 10000
+cp_compare a brute gen 10000
+cp_compare a brute gen 10000
+cp_compare a brute gen 10000
+cp_compare a brute gen 10000
+cpc a.cpp
+cp_compare a brute gen 10000
+reset
+l
+v CompetitiveProgramming/Library/cp_setup
+cd .config/vim/
+l
+v .vimrc
+mv .vimrc ../../
+..
+rmdir vim
+cd
+vim
+l
+CompetitiveProgramming/tmp
+cloen
+clone
+vim a.cpp
+vim a.cpp gen.cpp
+vim a.cpp gen.cpp
+cd
+v .viminfo
+v .vimrc
+cd
+cd .config/nvim
+v lua/options.lua
+v ~/.vimrc
+cd
+cd CompetitiveProgramming/tmp
+l
+v ~/.vimrc
+l
+asd a.cpp && ./a 
+cd CompetitiveProgramming/tmp
+clone
+vim a.cpp
+vim a.cpp
+v a.cpp in0
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+v ~/.vimrc
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+vim ~/.vimrc
+reset
+asd a.cpp && ./a <in0
+v CompetitiveProgramming/Library/cp_setup 
+v ~/CompetitiveProgramming/Library/cp_setup 
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+v ~/.config/nvim/lua/plugins/lualine.lua
+v ~/.config/nvim/lua/plugins/lualine.lua
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a 
+dasd a.cpp && ./a 
+cpc a.cpp
+cpc a.cpp
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+dasd a.cpp && ./a < input
+dasd a.cpp && ./a < input
+dasd a.cpp && ./a < input
+cpc a.cpp
+dasd a.cpp && ./a < in0
+10
+10
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+reset
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+cd CompetitiveProgramming/Library
+l
+ls
+l
+v dijkstra.cpp
+v sieve.cpp
+python3 --version
+pip install gradio
+cd tm
+l
+..
+cd tmp
+l
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+python3 test.py
+nmcli
+nmtui
+echo $asd
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+ddasd a.cpp && ./a < in0
+v ~/.zshenv
+v ~/.config/zsh/.zshrc
+cd CompetitiveProgramming/Library
+l
+code cp_setup
+cd CompetitiveProgramming
+ls
+rm -r tmp
+l
+cd CompetitiveProgramming
+cd tmp
+l
+find . ! -name 'a.cpp' -type f
+v CompetitiveProgramming/Library/cp_setup 
+v CompetitiveProgramming/Library/cp_setup 
+code CompetitiveProgramming/Library/cp_setup 
+v CompetitiveProgramming/Library/cp_setup 
+v CompetitiveProgramming/Library/cp_setup 
+asd a.cpp && ./a < in0
+cpc a.cpp
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+cpc a.cpp
+asd a.cpp && ./a 
+asd a.cpp && ./a 
+reset
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+cp a.cpp c.cpp
+cd CompetitiveProgramming/Library
+v mod.cpp
+cd tmp
+l
+reset
+reset
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd ans.cpp && ./a
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a
+dasd ans.cpp && ./a
+dasd a.cpp && ./a
+dasd ans.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a
+dasd ans.cpp && ./a
+dasd a.cpp && ./a < in0
+dasd ans.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+reeset
+reset
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+reset
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+asd a.cpp && ./a < in0
+cpc a.cpp
+cd CompetitiveProgramming/tmp
+l
+v a.cpp
+asd a.cpp && ./a
+asd a.cpp && ./a
+asd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+pwd
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+ddasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+asd a.cpp && time ./a < in0
+asd sol.cpp && time ./a < in0
+asd a.cpp && time ./a < in0
+reset
+asd sol.cpp && time ./a < in0
+asd a.cpp && time ./a < in0
+asd a.cpp && time ./a < in0
+asd a.cpp && time ./a < in0
+asd a.cpp && time ./a < in0
+asd a.cpp && time ./a < in0
+asd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+dasd a.cpp && time ./a < in0
+asd a.cpp && time ./a < in0
+asd a.cpp && time ./a < in0
+g++ a.cpp -o a && time ./a < in0
+asd a.cpp && time ./a < in0
+asd a.cpp && time ./a < in0
+g++ a.cpp -o a && time ./a < in0
+g++ a.cpp -o a && time ./a < in0
+g++ a.cpp -o a && time ./a < in0
+g++ a.cpp -o a && time ./a < in0
+g++ a.cpp -o a && time ./a < in0
+g++ a.cpp -o a && time ./a < in0
+asd a.cpp && time ./a < in0
+cd Downloads/Telegram\ Desktop
+;
+l
+ls
+v totale_treni.py
+python3 totale_treni.py
+v totale_treni.py
+python3 totale_treni.py
+asd a.cpp && ./a < in0
+cat in0
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+reset
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+reset
+reset
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+cd Github
+ls
+cd CSES
+ls
+python3 update.py
+v update.py
+python3 update.py
+v update.py
+python3 update.py
+v update.py
+python3 update.py
+sudo apt update
+sudo apt upgrade

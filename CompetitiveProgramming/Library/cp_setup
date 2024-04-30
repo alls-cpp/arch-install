@@ -1,13 +1,23 @@
 #!/bin/bash
+if ! [ -d ~/CompetitiveProgramming/tmp ]; then
+    mkdir -p ~/CompetitiveProgramming/tmp
+fi
 cd ~/CompetitiveProgramming/tmp
 find . ! -name 'a.cpp' -type f -exec rm -f {} +
 # if a.cpp exist, ask to delete
 if [ -f a.cpp ]; then
-    echo "a.cpp already exists. Do you want to delete it? (y/n)"
-    read ans
-    if [ $ans = "y" ]; then
-        cp ~/CompetitiveProgramming/Library/Template.cpp a.cpp
-    fi
+    while true; do
+        echo "a.cpp already exists. Do you want to delete it? (y/n)"
+        read ans
+        if [ "$ans" = "y" ] || [ "$ans" = "Y" ]; then
+            cp ~/CompetitiveProgramming/Library/Template.cpp a.cpp
+            break
+        elif [ "$ans" = "n" ] || [ "$ans" = "N" ]; then
+            break
+        else
+            echo "Invalid input. Please enter 'y' or 'n'."
+        fi
+    done
 else
     cp ~/CompetitiveProgramming/Library/Template.cpp a.cpp
 fi
