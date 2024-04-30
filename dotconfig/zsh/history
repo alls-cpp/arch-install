@@ -8014,3 +8014,109 @@ cd dotconfig
 ls
 v ~/.config/zsh/.zshrc
 v
+ls
+l
+cd Github/debian-install
+./update.sh
+ls
+la
+v update.sh
+ls
+git status
+git add *
+ls
+git status
+v .zshenv
+git status
+git add *
+ls
+git status
+git add .vimrc .zshenv
+git status
+git commit -m 'a'
+git push
+v
+v
+v .vimrc
+v .vimrc
+v
+v .vimrc
+v .vimrc
+cd Github/debian-install
+v update.sh
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+ddasd a.cpp && ./a < in
+ddasd a.cpp && time ./a < in
+time ddasd a.cpp && ./a < in
+time ddasd a.cpp && ./a < in
+ls
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+cpc a.cpp
+cat in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+asd a.cpp && ./a < in
+ddasd a.cpp && ./a < in
+ddasd a.cpp && ./a < in
+ddasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+asd a.cpp && ./a < in1
+asd a.cpp && ./a < in
+cpc a.cpp
+v ~/.vimrc
