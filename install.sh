@@ -16,6 +16,7 @@ apt upgrade -y
 # Making .config and moving config files
 cd $builddir
 mkdir -p /home/$username/.config
+cp .vimrc /home/$username/
 cp -R dotconfig/* /home/$username/.config/
 chown -R $username:$username /home/$username
 

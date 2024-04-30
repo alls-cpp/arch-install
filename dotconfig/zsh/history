@@ -7931,3 +7931,86 @@ v update.py
 python3 update.py
 sudo apt update
 sudo apt upgrade
+v .vimrc
+v .vimrc
+v .vimrc
+v .vimrc
+v ~/.config/nvim/lua/options.lua
+ls
+cd Github/debian-install
+ls
+./update.sh
+cd
+ls
+cat .vimrc
+v ~/.config/nvim/lua/options.lua
+cd Github/debian-install
+ls
+v install.sh
+v update.sh
+vim
+cd CompetitiveProgramming
+ls
+cd tmp
+ls
+..
+cd Library
+l
+v custom_hash.cpp
+nvim cp_setup
+v ~/.config/zsh/.zshrc
+ls
+..
+cd tmp
+ls
+v a.cpp
+asd a.cpp && ./a < in0
+dasd a.cpp && ./a < in0
+v ~/.config/zsh/.zshrc
+ls
+..
+ls
+cd Library
+ls
+..
+cd tmp
+ls
+vim a.cpp
+vim a.cpp
+vim a.cpp
+vim a.cpp
+vim a.cpp
+vim a.cpp
+vim a.cpp
+vim a.cpp
+vim a.cpp
+vim a.cpp
+vim a.cpp
+vim a.cpp
+vim a.cpp
+vim a.cpp
+vim 
+vim 
+vim a.cpp
+vim a.cpp
+vim a.cpp
+vim a.cpp
+ls
+..
+cd Library
+ls
+vim cp_setup
+vim cp_setup
+ls
+cd
+cd Github/debian-install
+ls
+./update.sh
+ls
+ls -a
+vim .vimrc
+ls
+cd dotconfig
+ls
+v ~/.config/zsh/.zshrc
+v

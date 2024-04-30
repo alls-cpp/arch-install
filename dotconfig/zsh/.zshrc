@@ -23,12 +23,11 @@ alias l='ls -l'
 alias la='ls -la'
 alias lt='ls --tree'
 alias bat='batcat --theme="gruvbox-dark"'
-alias v='nvim'
+alias v='vim'
 alias asd='g++ -std=gnu++20 -Ofast -o a'
 alias dasd='g++ -std=gnu++20 -Ofast -DALE -o a'
 alias ddasd='g++ -std=gnu++20 -Wall -Wextra -g -fsanitize=address -fsanitize=undefined -fno-sanitize-recover -O2 -DALE -o a'
 alias cpc='xclip -sel c < '
-
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_DEFAULT_OPTS='--height 100%'
