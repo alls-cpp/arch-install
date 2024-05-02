@@ -8120,3 +8120,79 @@ asd a.cpp && ./a < in1
 asd a.cpp && ./a < in
 cpc a.cpp
 v ~/.vimrc
+cd Github/debian-install
+./update.sh
+cd CompetitiveProgramming/tmp
+ls
+v a.cpp
+v a.cpp
+v a.cpp
+v a.cpp
+v a.cpp
+v a.cpp
+v a.cpp
+v a.cpp
+cd CompetitiveProgramming/tmp
+cd
+v .viminfo
+v .vimrc
+cd CompetitiveProgramming/tmp
+ls
+v in
+rm in1
+ls
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+v ~/.vimrc
+vim --version
+vim --version|grep .xterm_clipboard
+sudo apt remove vim
+sudo apt install gvim
+sudo apt install vim-gtk3
+v ~/Github/debian-install
+v ~/.config/nvim/lua/options.lua
+./../../Github/debian-install/update.sh
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in
+asd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in
+asd a.cpp && ./a < in
+cpc a.cpp
+cpc a.cpp
+cpc a.cpp
+cd CompetitiveProgramming/tmp
+v a.py
+cd CompetitiveProgramming/tmp
+python3 a.py
+python3 a.py
+rm a.py
+sudo apt update
+sudo apt upgrade
+v
+ls
+monitor.sh
+bluetoothctl
+bluetoothctl
+bluetoothctl
+ls
+ls
+cd dotconfig
+ls
+..
+..
+ls
+rm -r tmp
+cd CompetitiveProgramming
+ls
+..
+cd scripts
+ls
+cd ~/CompetitiveProgramming/Library
+ls
+v cp_setup
+code cp_setup
+ls
