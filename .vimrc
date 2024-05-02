@@ -1,4 +1,4 @@
-set ts=4 sw=4 ai rnu mps+=<:> hls noswf
+set ts=4 sw=4 ai cul nu rnu mps+=<:> hls noswf
 
 let mapleader=" "
 vnoremap <leader>y "+y

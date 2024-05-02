@@ -2,3 +2,5 @@ export PATH=$HOME/CompetitiveProgramming/Library:$HOME/.local/bin:$HOME/scripts:
 export XDG_CONFIG_HOME="$HOME/.config"
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export EDITOR="vim"
+export VISUAL="vim"
+. "$HOME/.cargo/env"
