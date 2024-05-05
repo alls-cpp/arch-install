@@ -8196,3 +8196,312 @@ ls
 v cp_setup
 code cp_setup
 ls
+cd CompetitiveProgramming
+ls
+ls /tmp
+ls
+cd tmp
+ls
+ls
+ls
+ls
+cd Github/debian-install
+ls
+cd CompetitiveProgramming
+ls
+cd Library
+ls
+v cp_setup
+..
+..
+ls
+v update.sh
+git status
+v .vimrc
+git log
+ls
+git status
+git diff
+./update.sh
+ls
+git status
+git config --global core.excludesfile
+./update.sh
+git status
+vim ~/.zshenv
+./update.sh
+v update.sh
+git status
+v update.sh
+./update.sh
+git status
+v update.sh
+ls -la
+cd .git
+ls
+..
+v update.sh
+./update.sh
+git status
+v update.sh
+v update.sh
+./update.sh
+ls
+neofetch
+cd .config/neofetch
+ls
+v config.conf
+ls
+mv config.conf _config.conf
+neofetch
+neofetch
+neofetch
+cd ~/Github/debian-install
+ls
+cd dotconfig
+ls
+rm -r neofetch
+..
+ls
+v update.sh
+v ~/.config/alacritty
+neofetch
+v ~/.config/alacritty
+asd a.cpp && ./a
+asd a.cpp && ./a
+cpc a.cpp
+cp a.cpp A.cpp
+asd a.cpp && ./a
+asd a.cpp && ./a
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in
+cpc a.cpp
+cpc a.cpp
+dasd a.cpp && ./a 
+v ~/.config/alacritty
+dasd a.cpp && ./a 
+cpc a.cpp
+dasd a.cpp && ./a 
+dasd a.cpp && ./a > ans
+v aaa
+diff aaa ans
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+cpc a.cpp
+asd a.cpp && ./a
+v in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+cpc a.cpp
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in1
+dasd a.cpp && ./a < in
+cpc a.cpp
+cpc a.cpp
+asd gen.cpp && ./a
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+ddasd sol.cpp && ./a < input
+cpc a.cpp
+cp_compare a sol gen 1000
+monitor.sh
+uname -a
+uname --all
+uname --hardware-platform
+v ~/.config/alacritty
+cp_setup
+clone
+clone
+ls
+n
+cp_setup
+cp_setup
+cp_setup
+ls -A
+cd CompetitiveProgramming/Library
+code .
+code cp_setup
+..
+cd tmp
+ls
+..
+l
+ls /tmp
+ls ./tmp
+ls ./tmp
+cat ~/scripts/clone
+cp_setup
+cd Library
+ls
+rm cp_setup
+..
+ls
+v ~/.config/i3/config
+cd CompetitiveProgramming/tmp
+cpc a.cpp
+cp_compare a sol gen 1000
+cp_compare a sol gen 1000
+cp_compare a sol gen 10000
+ddasd a.cpp&& ./a < input
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+cp_compare a sol gen 10000
+cp_compare a sol gen 10000
+cp_compare a sol gen 10000
+cp_compare a sol gen 10000
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+cpc a.cpp
+cp_compare a sol gen 10000
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+cp_compare a sol gen 10000
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+cp_compare a sol gen 10000
+cp_compare a sol gen 10000
+cp_compare a sol gen 10000
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+cpc a.cpp
+cp_compare a sol gen 10000
+ddasd a.cpp && ./a < input
+ddasd a.cpp && ./a < input
+cpc a.cpp
+cp_compare a sol gen 10000
+cp_compare a sol gen 10000
+cpc a.cpp
+cp_compare a sol gen 10000
+cp_compare a sol gen 10000
+cp_compare a sol gen 10000
+ddasd a.cpp && ./a < in
+ddasd a.cpp && ./a < in
+ddasd a.cpp && ./a < in
+ddasd a.cpp && ./a < in
+ddasd a.cpp && ./a < in
+ddasd a.cpp && ./a < in
+asd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+dasd a.cpp && ./a < in
+cpc a.cpp
+cd CompetitiveProgramming/tmp
+ls
+clone
+v gen.cpp
+tmux
+cd CompetitiveProgramming/tmp
+ls
+clone
+cd Downloads
+ls
+ll
+l
+cd
+cd CompetitiveProgramming
+l
+cd tmp
+ls
+rm *
+l
+clone
+v a.cpp in
+cp ../Library/Template.cpp a.cpp
+touch in
+asd a.cpp && ./a
+asd a.cpp && ./a
+cpc a.cpp
+asd a.cpp && ./a
+asd a.cpp && ./a
+asd a.cpp && ./a
+cpc a.cpp
+asd a.cpp && ./a
+asd a.cpp && ./a
+asd a.cpp && ./a
+asd a.cpp && ./a
+cpc a.cpp
+asd a.cpp && ./a
+asd a.cpp && ./a
+asd a.cpp && ./a
+cpc a.cpp
+ls ../Library/
+asd a.cpp 
+asd a.cpp 
+asd a.cpp 
+dasd a.cpp 
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+cpc a.cpp
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+cpc a.cpp
+cpc a.cpp
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+10 5
+6 158260522
+1 3 6 8 9 10
+10 877914575
+1 2 3 4 5 6 7 8 9 10
+4 602436426
+2 6 7 9
+6 24979445
+2 3 4 5 8 10
+4 861648772
+2 4 8 9
+2 4 8 9
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+dasd a.cpp && ./a
+asd a.cpp && ./a
+asd a.cpp && ./a
+cpc a.cpp
+vim
