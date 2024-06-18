@@ -14,8 +14,8 @@ void __print(long double x) { std::cerr << x; }
 void __print(char x) { std::cerr << '\'' << x << '\''; }
 void __print(const char *x) { std::cerr << '\"' << x << '\"'; }
 void __print(const std::string &x) { std::cerr << '\"' << x << '\"'; }
-//void __print(bool x) { std::cerr << (x ? "true" : "false"); }
-void __print(bool x) { std::cerr << (x ? "1" : "0"); }
+void __print(bool x) { std::cerr << (x ? "true" : "false"); }
+//void __print(bool x) { std::cerr << (x ? "1" : "0"); }
 void _print() { std::cerr << std::endl; }
 template <typename T>
 void __print(const T &x);
@@ -23,8 +23,9 @@ template <typename T, typename... V>
 void _print(T t, V... v);
 template <typename T, typename V>
 void __print(const std::pair<T, V> &x);
-//template <typename T>
-//void __print(std::vector<std::vector<T>> x);
+// uncomment the next two lines to print vector of vector as matrix
+template <typename T>
+void __print(std::vector<std::vector<T>> x);
 template <typename T>
 void __print(std::queue<T> x);
 template <typename T>
@@ -144,4 +145,4 @@ void _print_name(std::string names)
     }
     std::cerr << RESET << " : ";
 }
-#define dbg(x...) index_color = 0; std::cerr << __LINE__ << RESET; _print_name(#x); _print(x);
+#define dbg(x...) index_color = 0; std::cerr << colors[3] << __LINE__ << RESET; _print_name(#x); _print(x);
