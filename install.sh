@@ -20,9 +20,9 @@ chown -R $username:$username /home/$username
 pacman -Syu
 pacman -S install i3 xorg unzip wget pulseaudio pavucontrol base-devel curl nemo \
 flameshot lightdm lightdm-gtk-greeter telegram-desktop gnu-free-fonts ttf-font-awesome \
-ttf-jetbrains-mono-nerd ttf-liberation firefox lxappearance zsh eog evince \
-vlc bat xclip brightnessctl playerctl nitrogen alsa-utils \
-xournalpp blueman gvim cronie dunst eza
+ttf-jetbrains-mono-nerd ttf-liberation noto-fonts-emoji firefox lxappearance zsh eog \
+evince vlc bat xclip brightnessctl playerctl nitrogen alsa-utils xournalpp blueman \
+gvim cronie dunst eza
 
 # Enable graphical login and change target from CLI to GUI
 # systemctl enable lightdm
