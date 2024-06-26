@@ -24,7 +24,8 @@ chown -R $username:$username /home/$username
 apt install i3 xorg unzip wget pulseaudio pavucontrol build-essential curl nemo \
 chromium neofetch flameshot lightdm telegram-desktop fd-find fonts-font-awesome \
 lxappearance papirus-icon-theme zsh eog evince vlc suckless-tools bat xclip \
-brightnessctl playerctl i3blocks nitrogen network-manager network-manager-gnome xournalpp blueman vim-gtk3 -y
+brightnessctl playerctl i3blocks nitrogen network-manager network-manager-gnome \
+xournalpp blueman vim-gtk3 cronie dunst -y
 
 # Enable graphical login and change target from CLI to GUI
 systemctl enable lightdm
