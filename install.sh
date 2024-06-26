@@ -19,10 +19,10 @@ chown -R $username:$username /home/$username
 # Installing Programs 
 pacman -Syu
 pacman -S install i3 xorg unzip wget pulseaudio pavucontrol base-devel curl nemo \
-flameshot lightdm telegram-desktop gnu-free-fonts ttf-font-awesome \
+flameshot lightdm lightdm-gtk-greeter telegram-desktop gnu-free-fonts ttf-font-awesome \
 ttf-jetbrains-mono-nerd ttf-liberation firefox lxappearance zsh eog evince \
-vlc bat xclip brightnessctl playerctl i3blocks nitrogen alsa-utils \
-xournalpp blueman gvim cronie dunst eza -y
+vlc bat xclip brightnessctl playerctl nitrogen alsa-utils \
+xournalpp blueman gvim cronie dunst eza
 
 # Enable graphical login and change target from CLI to GUI
 # systemctl enable lightdm
@@ -49,13 +49,15 @@ xournalpp blueman gvim cronie dunst eza -y
 # 	Option "VertTwoFingerScroll" "on"
 # EndSection
 
-
 # systemctl previleges
 # into /etc/sudoers.d/sysctl
 # alls ALL = NOPASSWD: /bin/systemctl
 
 # Set zsh default shell
 # chsh -s $(which zsh)
+# Clone the following plugins into the folder plugins, in .config/zsh
+# https://github.com/zsh-users/zsh-autosuggestions
+# https://github.com/zsh-users/zsh-syntax-highlighting
 
 # Install vscode(paste settings and keybindings in dotconfig/Code/User)
 
@@ -78,7 +80,7 @@ xournalpp blueman gvim cronie dunst eza -y
 # append:
 # * * * * * XDG_RUNTIME_DIR=/run/user/$(id -u) /home/alls/scripts/batwarn.sh
 
-# install chrome with yay. Extensions:
+# Install chrome with yay. Extensions:
 #   adblock plus
 #   dark reader
 #   deepl traslate
