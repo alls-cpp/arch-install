@@ -9,10 +9,6 @@ fi
 username=$(id -u -n 1000)
 builddir=$(pwd)
 
-# Update packages list and update system
-apt update
-apt upgrade -y
-
 # Making .config and moving config files
 cd $builddir
 mkdir -p /home/$username/.config
@@ -21,14 +17,38 @@ cp -R dotconfig/* /home/$username/.config/
 chown -R $username:$username /home/$username
 
 # Installing Programs 
-apt install i3 xorg unzip wget pulseaudio pavucontrol build-essential curl nemo \
-chromium neofetch flameshot lightdm telegram-desktop fd-find fonts-font-awesome \
-lxappearance papirus-icon-theme zsh eog evince vlc suckless-tools bat xclip \
-brightnessctl playerctl i3blocks nitrogen network-manager network-manager-gnome \
-xournalpp blueman vim-gtk3 cronie dunst eza -y
+pacman -Syu
+pacman -S install i3 xorg unzip wget pulseaudio pavucontrol base-devel curl nemo \
+flameshot lightdm telegram-desktop gnu-free-fonts ttf-font-awesome \
+ttf-jetbrains-mono-nerd ttf-liberation firefox lxappearance zsh eog evince \
+vlc bat xclip brightnessctl playerctl i3blocks nitrogen alsa-utils \
+xournalpp blueman gvim cronie dunst eza -y
 
 # Enable graphical login and change target from CLI to GUI
-systemctl enable lightdm
+# systemctl enable lightdm
+
+# Enable click on tap and scroll with two fingers
+# /etc/X11/xorg.conf.d/50-libinput.conf
+#
+# Section "InputClass"
+#         Identifier "libinput touchpad catchall"
+#         MatchIsTouchpad "on"
+#         MatchDevicePath "/dev/input/event*"
+#         Driver "libinput"
+#         Option "Tapping" "on"
+#         Option "DisableWhileTyping" "on"
+#         #Option "ScrollMethod" "edge"
+# EndSection
+# 
+# Section "InputClass"
+#         Identifier "touchpad ignore duplicates"
+#         MatchIsTouchpad "on"
+#         MatchOS "Linux"
+#         MatchDevicePath "/dev/input/mouse*"
+#         Option "Ignore" "on"
+# 	Option "VertTwoFingerScroll" "on"
+# EndSection
+
 
 # systemctl previleges
 # into /etc/sudoers.d/sysctl
@@ -49,9 +69,6 @@ systemctl enable lightdm
 #   [greeter]
 #   background=/usr/share/pixmaps/Black_Hole_Wallpaper.jpeg
 
-# Install jetbrainsmono font on https://www.nerdfonts.com/font-downloads, unzip it in ~/.fonts and run fc-cache -fv
-# fc-list to see the available fonts
-
 # Notification of low battery
 # make scripts executable
 # in arch enable crontab that is renamed with cronie
@@ -59,12 +76,11 @@ systemctl enable lightdm
 # systemctl start cronie
 # crontab -e
 # append:
-#   DISPLAY=:0
-#   */2 * * * * /home/alls/scripts/batwarn.sh
+# * * * * * XDG_RUNTIME_DIR=/run/user/$(id -u) /home/alls/scripts/batwarn.sh
 
-# chrome extensions:
-# adblock plus
-# dark reader
-# deepl traslate
-# video speed controller
-# rearrange tabs
+# install chrome with yay. Extensions:
+#   adblock plus
+#   dark reader
+#   deepl traslate
+#   video speed controller
+#   rearrange tabs
