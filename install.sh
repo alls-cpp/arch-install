@@ -28,9 +28,8 @@ brightnessctl playerctl i3blocks nitrogen network-manager network-manager-gnome 
 
 # Enable graphical login and change target from CLI to GUI
 systemctl enable lightdm
-systemctl set-default graphical.target
 
-# if wifi problem
+# systemctl previleges
 # into /etc/sudoers.d/sysctl
 # alls ALL = NOPASSWD: /bin/systemctl
 
