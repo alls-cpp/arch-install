@@ -25,7 +25,7 @@ apt install i3 xorg unzip wget pulseaudio pavucontrol build-essential curl nemo 
 chromium neofetch flameshot lightdm telegram-desktop fd-find fonts-font-awesome \
 lxappearance papirus-icon-theme zsh eog evince vlc suckless-tools bat xclip \
 brightnessctl playerctl i3blocks nitrogen network-manager network-manager-gnome \
-xournalpp blueman vim-gtk3 cronie dunst -y
+xournalpp blueman vim-gtk3 cronie dunst eza -y
 
 # Enable graphical login and change target from CLI to GUI
 systemctl enable lightdm
@@ -37,11 +37,7 @@ systemctl enable lightdm
 # Set zsh default shell
 # chsh -s $(which zsh)
 
-# Install eza, fzf, alacritty, vscode(paste settings and keybindings in dotconfig/Code/User)
-# for fzf
-# Do you want to enable fuzzy auto-completion? No
-# Do you want to enable key bindings? Yes
-# Do you want to update your shell configuration files? Yes
+# Install vscode(paste settings and keybindings in dotconfig/Code/User)
 
 # Enable default user and background image in lightdm
 # 1)In /etc/lightdm/lightdm.conf
@@ -58,6 +54,9 @@ systemctl enable lightdm
 
 # Notification of low battery
 # make scripts executable
+# in arch enable crontab that is renamed with cronie
+# systemctl enable cronie
+# systemctl start cronie
 # crontab -e
 # append:
 #   DISPLAY=:0
