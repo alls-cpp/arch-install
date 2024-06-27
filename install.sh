@@ -22,9 +22,9 @@ pacman -S install i3 xorg unzip wget pulseaudio pavucontrol base-devel curl nemo
 flameshot lightdm lightdm-gtk-greeter telegram-desktop gnu-free-fonts ttf-font-awesome \
 ttf-jetbrains-mono-nerd ttf-liberation noto-fonts-emoji firefox lxappearance zsh eog \
 evince vlc bat xclip brightnessctl playerctl nitrogen alsa-utils xournalpp blueman \
-gvim cronie dunst eza man-db git
+gvim cronie dunst eza man-db git fastfetch
 
-# Enable graphical login and change target from CLI to GUI
+# Enable graphical login
 # systemctl enable lightdm
 
 # Enable click on tap and scroll with two fingers
@@ -86,3 +86,7 @@ gvim cronie dunst eza man-db git
 #   deepl traslate
 #   video speed controller
 #   rearrange tabs
+
+# System, icon and cursor theme
+# https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme?tab=readme-ov-file
+# https://github.com/phisch/phinger-cursors
