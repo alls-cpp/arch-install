@@ -1,4 +1,4 @@
-import = ["/home/alls/.config/alacritty/themes/everforest.toml",]
+import = ["/home/alls/.config/alacritty/everforest.toml",]
 
 [font]
 size = 8.5
