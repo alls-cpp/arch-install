@@ -1,5 +1,5 @@
 # Basic settings
-font pango:JetBrains Mono Nerd Font Propo 14
+font pango:JetBrains Mono Nerd Font Propo 15
 set $mod Mod4
 workspace_layout default
 bindsym $mod+Shift+s layout toggle tabbed splith
@@ -8,33 +8,24 @@ hide_edge_borders smart
 floating_modifier $mod
 
 # Workspace
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
+set $ws1 "<span color='#e67e80'></span>"
+set $ws2 "<span color='#dbbc7f'></span>"
+set $ws3 "<span color='#d3c6aa'></span>"
+set $ws4 "<span color='#7fbbb3'></span>"
+set $ws5 "<span color='#83c092'></span>"
+set $ws6 "<span color='#d699b6'></span>"
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace $ws3
 bindsym $mod+4 workspace $ws4
-bindsym $mod+5 workspace $ws5
-bindsym $mod+6 workspace $ws6
-bindsym $mod+7 workspace $ws7
-bindsym $mod+8 workspace $ws8
-bindsym $mod+9 workspace $ws9
+bindsym $mod+9 workspace $ws5
+bindsym $mod+0 workspace $ws6
 bindsym $mod+Shift+1 move container to workspace $ws1
 bindsym $mod+Shift+2 move container to workspace $ws2
 bindsym $mod+Shift+3 move container to workspace $ws3
 bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
-bindsym $mod+Shift+7 move container to workspace $ws7
-bindsym $mod+Shift+8 move container to workspace $ws8
-bindsym $mod+Shift+9 move container to workspace $ws9
 
 # Window focus, movement and management
 bindsym $mod+h focus left
@@ -67,8 +58,8 @@ mode "resize" {
 }
 
 # Audio and brightness control
-bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 1%+ && pkill -RTMIN+1 i3blocks
-bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 1%- && pkill -RTMIN+1 i3blocks
+bindsym XF86AudioRaiseVolume exec amixer -q set Master 1%+ unmute && pkill -RTMIN+1 i3blocks
+bindsym XF86AudioLowerVolume exec amixer -q set Master 1%- unmute && pkill -RTMIN+1 i3blocks
 bindsym XF86AudioMute exec --no-startup-id amixer sset Master toggle && killall -USR1 i3blocks
 bindsym XF86AudioPlay exec --no-startup-id playerctl play
 bindsym XF86AudioPause exec --no-startup-id playerctl pause
@@ -79,14 +70,14 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 1%-
 
 # Application shortcuts
 bindsym $mod+Return exec alacritty
-bindsym $mod+w exec google-chrome
+bindsym $mod+w exec google-chrome-stable
 bindsym $mod+n exec nemo
 bindsym $mod+a exec pavucontrol
 bindsym $mod+p exec flameshot gui
 bindsym $mod+t exec telegram-desktop
 bindsym $mod+c exec code
 bindsym $mod+x exec xournalpp
-bindsym $mod+d exec dmenu_run -i -fn "JetBrains Mono" -nb "#2c2525" -nf "#fff1f3" -sf "#2c2525" -sb "#85dacc" 
+bindsym $mod+d exec dmenu_run -i -fn "JetBrains Mono" -nb "#3B4252" -nf "#D8DEE9" -sb "#A3BE8C" -sf "#3B4252"
 bindsym $mod+b exec blueman-manager
 
 # Python as calculator
@@ -95,7 +86,7 @@ for_window [instance="ciao"] floating enable, [floating] resize set 800 400 , mo
 
 # Assigning applications to workspaces
 assign [class="(?i)google-chrome"] $ws1
-assign [class="TelegramDesktop"] $ws9
+assign [class="TelegramDesktop"] $ws6
 for_window [class=(?i)google-chrome] focus
 for_window [class=TelegramDesktop] focus
 
@@ -115,10 +106,11 @@ mode "$mode_system" {
 }
 
 # colors
-set $black	    #1d2021
-set $white      #ebdbb2
-set $red        #fb4934
-set $blue       #8ec07c
+set $black	    #1e2326
+set $grey	    #414b50
+set $white      #d3c6aa
+set $red        #e67e80
+set $green      #a7c080
 
 # Bar Configuration
 bar {
@@ -128,22 +120,24 @@ bar {
     colors {
         background $black
         #                  border             background         text
-        focused_workspace  $blue              $blue              $black
+        focused_workspace  $grey              $grey              $white
         inactive_workspace $black             $black             $white
-        active_workspace   $black             $black             $blue
-        urgent_workspace   $red               $red               $black
+        active_workspace   $black             $black             $grey
+        urgent_workspace   $red               $red               $white
         binding_mode       $black             $red               $black
       }
 }
 
 # Border color settings
-client.focused          $black  $black $blue   $red    $blue
-client.focused_inactive $black  $black $blue   $black  $black
+client.focused          $black  $grey  $white  $red    $green
+client.focused_inactive $black  $black $green   $black  $black
 client.unfocused        $black  $black $white  $black  $black
+
 
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id sudo systemctl restart wpa_supplicant
 exec --no-startup-id sudo systemctl restart NetworkManager
 exec --no-startup-id nm-applet
+exec --no-startup-id sudo systemctl start bluetooth
 exec --no-startup-id blueman-applet
 exec --no-startup-id setxkbmap -option caps:escape
