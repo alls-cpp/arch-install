@@ -59,7 +59,10 @@ gvim cronie dunst eza man-db git fastfetch
 # https://github.com/zsh-users/zsh-autosuggestions
 # https://github.com/zsh-users/zsh-syntax-highlighting
 
-# Install vscode(paste settings and keybindings in dotconfig/Code/User)
+# Install vscode with yay
+# https://wiki.archlinux.org/title/Visual_Studio_Code
+# https://aur.archlinux.org/packages/visual-studio-code-bin
+
 
 # Enable default user and background image in lightdm
 # 1)In /etc/lightdm/lightdm.conf
